@@ -1,0 +1,511 @@
+﻿
+2015.07.29 12:33:46
+.客户信息：
+	Ip:::1
+	浏览器:IE
+	浏览器版本:10
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:18759/favicon.ico
+	错误信息：文件不存在。
+	错误源：System.Web
+	异常方法：System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+	堆栈信息：   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--------------------------------------------------------------------------------------------------
+2015.07.29 12:34:01
+.客户信息：
+	Ip:::1
+	浏览器:IE
+	浏览器版本:10
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:18759/images/shortcut-button-bg.gif
+	错误信息：文件不存在。
+	错误源：System.Web
+	异常方法：System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+	堆栈信息：   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--------------------------------------------------------------------------------------------------
+2015.07.29 12:34:01
+.客户信息：
+	Ip:::1
+	浏览器:IE
+	浏览器版本:10
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:18759/favicon.ico
+	错误信息：文件不存在。
+	错误源：System.Web
+	异常方法：System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+	堆栈信息：   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--------------------------------------------------------------------------------------------------
+2015.07.29 14:45:39
+.客户信息：
+	Ip:::1
+	浏览器:IE
+	浏览器版本:10
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:57372/favicon.ico
+	错误信息：文件不存在。
+	错误源：System.Web
+	异常方法：System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+	堆栈信息：   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--------------------------------------------------------------------------------------------------
+2015.07.29 14:46:02
+.客户信息：
+	Ip:::1
+	浏览器:IE
+	浏览器版本:10
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:57372/images/shortcut-button-bg.gif
+	错误信息：文件不存在。
+	错误源：System.Web
+	异常方法：System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+	堆栈信息：   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--------------------------------------------------------------------------------------------------
+2015.07.29 14:46:02
+.客户信息：
+	Ip:::1
+	浏览器:IE
+	浏览器版本:10
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:57372/favicon.ico
+	错误信息：文件不存在。
+	错误源：System.Web
+	异常方法：System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+	堆栈信息：   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--------------------------------------------------------------------------------------------------
+2015.07.29 14:46:16
+.客户信息：
+	Ip:::1
+	浏览器:IE
+	浏览器版本:10
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:57372/images/line_x_01.gif
+	错误信息：文件不存在。
+	错误源：System.Web
+	异常方法：System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+	堆栈信息：   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--------------------------------------------------------------------------------------------------
+2015.07.29 14:46:16
+.客户信息：
+	Ip:::1
+	浏览器:IE
+	浏览器版本:10
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:57372/images/icon_triangle_blue.gif
+	错误信息：文件不存在。
+	错误源：System.Web
+	异常方法：System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+	堆栈信息：   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--------------------------------------------------------------------------------------------------
+2015.07.29 14:54:13
+.客户信息：
+	Ip:::1
+	浏览器:IE
+	浏览器版本:10
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:57372/images/line_x_01.gif
+	错误信息：文件不存在。
+	错误源：System.Web
+	异常方法：System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+	堆栈信息：   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--------------------------------------------------------------------------------------------------
+2015.07.29 14:54:14
+.客户信息：
+	Ip:::1
+	浏览器:IE
+	浏览器版本:10
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:57372/images/icon_triangle_blue.gif
+	错误信息：文件不存在。
+	错误源：System.Web
+	异常方法：System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+	堆栈信息：   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--------------------------------------------------------------------------------------------------
+2015.07.29 15:10:31
+.客户信息：
+	Ip:::1
+	浏览器:IE
+	浏览器版本:10
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:57372/images/icon_triangle_blue.gif
+	错误信息：文件不存在。
+	错误源：System.Web
+	异常方法：System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+	堆栈信息：   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--------------------------------------------------------------------------------------------------
+2015.07.29 15:10:31
+.客户信息：
+	Ip:::1
+	浏览器:IE
+	浏览器版本:10
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:57372/images/line_x_01.gif
+	错误信息：文件不存在。
+	错误源：System.Web
+	异常方法：System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+	堆栈信息：   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--------------------------------------------------------------------------------------------------
+2015.07.29 15:10:46
+.客户信息：
+	Ip:::1
+	浏览器:IE
+	浏览器版本:10
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:57372/images/icon_triangle_blue.gif
+	错误信息：文件不存在。
+	错误源：System.Web
+	异常方法：System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+	堆栈信息：   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--------------------------------------------------------------------------------------------------
+2015.07.29 15:10:46
+.客户信息：
+	Ip:::1
+	浏览器:IE
+	浏览器版本:10
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:57372/images/line_x_01.gif
+	错误信息：文件不存在。
+	错误源：System.Web
+	异常方法：System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+	堆栈信息：   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--------------------------------------------------------------------------------------------------
+2015.07.29 15:12:09
+.客户信息：
+	Ip:::1
+	浏览器:IE
+	浏览器版本:10
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:57372/images/icon_triangle_blue.gif
+	错误信息：文件不存在。
+	错误源：System.Web
+	异常方法：System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+	堆栈信息：   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--------------------------------------------------------------------------------------------------
+2015.07.29 15:12:09
+.客户信息：
+	Ip:::1
+	浏览器:IE
+	浏览器版本:10
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:57372/images/line_x_01.gif
+	错误信息：文件不存在。
+	错误源：System.Web
+	异常方法：System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+	堆栈信息：   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--------------------------------------------------------------------------------------------------
+2015.07.29 15:12:56
+.客户信息：
+	Ip:::1
+	浏览器:IE
+	浏览器版本:10
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:57372/images/icon_triangle_blue.gif
+	错误信息：文件不存在。
+	错误源：System.Web
+	异常方法：System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+	堆栈信息：   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--------------------------------------------------------------------------------------------------
+2015.07.29 15:12:56
+.客户信息：
+	Ip:::1
+	浏览器:IE
+	浏览器版本:10
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:57372/images/line_x_01.gif
+	错误信息：文件不存在。
+	错误源：System.Web
+	异常方法：System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+	堆栈信息：   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--------------------------------------------------------------------------------------------------
+2015.07.29 15:16:33
+.客户信息：
+	Ip:::1
+	浏览器:IE
+	浏览器版本:10
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:57372/images/icon_triangle_blue.gif
+	错误信息：文件不存在。
+	错误源：System.Web
+	异常方法：System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+	堆栈信息：   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--------------------------------------------------------------------------------------------------
+2015.07.29 15:16:33
+.客户信息：
+	Ip:::1
+	浏览器:IE
+	浏览器版本:10
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:57372/images/line_x_01.gif
+	错误信息：文件不存在。
+	错误源：System.Web
+	异常方法：System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+	堆栈信息：   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--------------------------------------------------------------------------------------------------
+2015.07.29 15:20:37
+.客户信息：
+	Ip:::1
+	浏览器:IE
+	浏览器版本:10
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:57372/images/icon_triangle_blue.gif
+	错误信息：文件不存在。
+	错误源：System.Web
+	异常方法：System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+	堆栈信息：   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--------------------------------------------------------------------------------------------------
+2015.07.29 15:20:37
+.客户信息：
+	Ip:::1
+	浏览器:IE
+	浏览器版本:10
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:57372/images/line_x_01.gif
+	错误信息：文件不存在。
+	错误源：System.Web
+	异常方法：System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+	堆栈信息：   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--------------------------------------------------------------------------------------------------
+2015.07.29 15:27:24
+.客户信息：
+	Ip:::1
+	浏览器:IE
+	浏览器版本:10
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:57372/images/shortcut-button-bg.gif
+	错误信息：文件不存在。
+	错误源：System.Web
+	异常方法：System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+	堆栈信息：   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--------------------------------------------------------------------------------------------------
+2015.07.29 15:41:21
+.客户信息：
+	Ip:::1
+	浏览器:IE
+	浏览器版本:10
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:57372/images/icon_triangle_blue.gif
+	错误信息：文件不存在。
+	错误源：System.Web
+	异常方法：System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+	堆栈信息：   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--------------------------------------------------------------------------------------------------
+2015.07.29 15:41:21
+.客户信息：
+	Ip:::1
+	浏览器:IE
+	浏览器版本:10
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:57372/images/line_x_01.gif
+	错误信息：文件不存在。
+	错误源：System.Web
+	异常方法：System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+	堆栈信息：   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--------------------------------------------------------------------------------------------------
+2015.07.29 15:47:57
+.客户信息：
+	Ip:::1
+	浏览器:IE
+	浏览器版本:10
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:57372/Ajax/SetUserCache.ashx?time=4854736
+	错误信息：未能加载文件或程序集“System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。句柄无效。 (异常来自 HRESULT:0x80070006 (E_HANDLE))
+	错误源：mscorlib
+	异常方法：System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+	堆栈信息：   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   在 System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   在 System.Reflection.Assembly.Load(String assemblyString)
+   在 System.Web.Configuration.CompilationSection.LoadAssemblyHelper(String assemblyName, Boolean starDirective)
+--------------------------------------------------------------------------------------------------
+2015.07.29 15:47:58
+.客户信息：
+	Ip:::1
+	浏览器:IE
+	浏览器版本:10
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:57372/view/DatabaseContent.aspx?type=22&keyword=&queryConn=&searchword=&selectValue=all&orderField=FINDDATE DESC&second=undefined&secondwhere=METATYPE=2 
+	错误信息：未能加载文件或程序集“DRMS.IDAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。句柄无效。 (异常来自 HRESULT:0x80070006 (E_HANDLE))
+	错误源：DRMS.BLL
+	异常方法：Void .cctor()
+	堆栈信息：   在 DRMS.BLL.Terminology..cctor()
+--------------------------------------------------------------------------------------------------
+2015.07.29 15:48:05
+.客户信息：
+	Ip:::1
+	浏览器:IE
+	浏览器版本:10
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:57372/Ajax/SetUserCache.ashx?time=499485
+	错误信息：未能加载文件或程序集“System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。句柄无效。 (异常来自 HRESULT:0x80070006 (E_HANDLE))
+	错误源：mscorlib
+	异常方法：System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+	堆栈信息：   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   在 System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   在 System.Reflection.Assembly.Load(String assemblyString)
+   在 System.Web.Configuration.CompilationSection.LoadAssemblyHelper(String assemblyName, Boolean starDirective)
+--------------------------------------------------------------------------------------------------
+2015.07.29 15:48:47
+.客户信息：
+	Ip:::1
+	浏览器:IE
+	浏览器版本:10
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:57372/images/line_x_01.gif
+	错误信息：文件不存在。
+	错误源：System.Web
+	异常方法：System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+	堆栈信息：   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--------------------------------------------------------------------------------------------------
+2015.07.29 15:48:47
+.客户信息：
+	Ip:::1
+	浏览器:IE
+	浏览器版本:10
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:57372/images/icon_triangle_blue.gif
+	错误信息：文件不存在。
+	错误源：System.Web
+	异常方法：System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+	堆栈信息：   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--------------------------------------------------------------------------------------------------

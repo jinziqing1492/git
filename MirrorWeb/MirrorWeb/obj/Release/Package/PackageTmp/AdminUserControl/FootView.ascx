@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="FootView.ascx.cs" Inherits="DRMS.MirrorWeb.AdminUserControl.FootView" %>
+<div class="TYfooter"><p>版权所有：中航出版传媒有限责任公司  Copyright 2010 All rights</p></div>

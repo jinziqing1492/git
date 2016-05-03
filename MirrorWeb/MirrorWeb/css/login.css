@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+/* reset*/
+body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,th,td,p,blockquote,pre,form,fieldset,legend,input,button,textarea,hr{margin:0;padding:0;}
+ul,ol{list-style:none;}
+body{font:12px/1.5 宋体;}
+select,input,button{vertical-align:middle;font-size:100%;}
+fieldset,img{border:0;}
+em{font-style:normal;}
+.clear {clear:both;display:block;height:0; visibility:hidden; font:0/0 arial}
+.clearfix:after {content:"."; display: block; height: 0; clear: both; visibility: hidden; font-size:0;}
+.clearfix {*zoom:1;}
+/* Hides from IE-mac \*/ 
+* html .clearfix {height: 1%;} 
+.clearfix {display: block;} 
+a{text-decoration:none; }
+html{ overflow:-moz-scrollbars-vertical;}/*在Firefox浏览器下始终显示滚动条；不同浏览器的显示效果都将一致*/
+/* End hide from IE-mac */
+/*login*/
+.TYloginBG{ background:url(../images/TYloginBG.png) no-repeat top left;}
+.TYCompany_logo{ background:url(../images/TYCompany_logo.gif) no-repeat right top; width:710px; height:32px; position:absolute;top:20px;left:50%;margin-left:-355px;}
+.TYloginContainer{width:710px;height:400px;position:absolute;left:50%;margin-left:-355px;top:50%;margin-top:-200px;}
+.TYlogin{background:url(../images/TYlogin.gif) no-repeat; width:381px; height:52px;}
+.TYloginL{float:left; width:400px; background:url(../images/TYloginBG.gif) no-repeat right;_width:380px;}
+.TYlogin-pic{background:url(../images/TYlogin-pic.png) no-repeat right; height:235px; margin-top:5px;_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale, src='images/TYlogin-pic.png'); _background:none;}
+.TYloginR{float:left; background:url(../images/TYloginR.gif) no-repeat 30px top; width:260px; padding-left:40px; height:300px;}
+.TYloginRTitle{ line-height:40px; color:#0a5c9b; font-size:18px;padding-left:20px;}
+.TYloginR table{margin-top:10px;color:#063263; }
+.TYloginR table td{padding-top:20px;text-align:left; line-height:30px; font-size:12px; font-weight:bold; padding-right:10px;}
+.TYloginR table .TYinputWidth{width:200px; height:22px; line-height:22px; color:#000; font-size:12px;}
+.TYinputChexkbox{margin-right:5px; margin-top:-4px;}
+.TYloginFooter{ text-align:center;color:#063263; line-height:40px;}

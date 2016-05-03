@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<item>
+  <ip startip="192.168.22.70" endip="192.168.22.111"></ip>
+  <ip startip="192.168.22.163" endip="192.168.22.198"></ip>
+</item>

@@ -1,0 +1,11 @@
+D:\avic\source\镜像库\MirrorWeb\CCL\bin\Debug\NPOI.dll
+D:\avic\source\镜像库\MirrorWeb\CCL\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\avic\source\镜像库\MirrorWeb\CCL\bin\Debug\NPOI.OOXML.dll
+D:\avic\source\镜像库\MirrorWeb\CCL\bin\Debug\NPOI.OpenXml4Net.dll
+D:\avic\source\镜像库\MirrorWeb\CCL\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\avic\source\镜像库\MirrorWeb\CCL\bin\Debug\FRAME.CCL.dll
+D:\avic\source\镜像库\MirrorWeb\CCL\bin\Debug\FRAME.CCL.pdb
+D:\avic\source\镜像库\MirrorWeb\CCL\obj\Debug\FRAME.CCL.dll
+D:\avic\source\镜像库\MirrorWeb\CCL\obj\Debug\FRAME.CCL.pdb
+D:\avic\source\镜像库\MirrorWeb\CCL\bin\Debug\System.Data.SQLite.dll
+D:\avic\source\镜像库\MirrorWeb\CCL\obj\Debug\CCL.csprojResolveAssemblyReference.cache

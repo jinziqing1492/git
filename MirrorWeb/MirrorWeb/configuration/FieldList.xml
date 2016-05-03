@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<item>
+  <field dtype="1" dname="图书" fname="name"  fdname="名称" />
+  <field dtype="1" dname="图书" fname="author"  fdname="作者" />
+  <field dtype="1" dname="图书" fname="fulltext"  fdname="全文" />
+  <field dtype="1" dname="图书" fname="keywords"  fdname="关键字" />
+  <field dtype="1" dname="图书" fname="isbn"  fdname="isbn" />
+  <field dtype="2" dname="标准" fname="name"  fdname="名称" />
+  <field dtype="2" dname="标准" fname="stdno"  fdname="标准号" />
+  <field dtype="2" dname="标准" fname="draftperson"  fdname="起草人" />
+  <field dtype="2" dname="标准" fname="draftdep"  fdname="起草单位" />
+  <field dtype="2" dname="标准" fname="keywords"  fdname="关键词" />
+  <field dtype="3" dname="工具书" fname="name"  fdname="名称" />
+  <field dtype="3" dname="工具书" fname="isbn"  fdname="isbn" />
+  <field dtype="3" dname="工具书" fname="issuedep"  fdname="出版单位" />
+  <field dtype="3" dname="工具书" fname="keywords"  fdname="关键词" />
+  <field dtype="4" dname="期刊" fname="cname"  fdname="名称" />
+  <field dtype="4" dname="期刊" fname="cn"  fdname="cn" />
+  <field dtype="4" dname="期刊" fname="issn"  fdname="issn" />
+  <field dtype="4" dname="期刊" fname="pubdep"  fdname="出版单位" />
+  <field dtype="5" dname="会议论文" fname="name"  fdname="名称" />
+  <field dtype="5" dname="会议论文" fname="isbn"  fdname="isbn" />
+  <field dtype="5" dname="会议论文" fname="author"  fdname="作者" />
+  <field dtype="5" dname="会议论文" fname="issuedep"  fdname="出版单位" />
+  <field dtype="5" dname="会议论文" fname="keywords"  fdname="关键词" />
+  <field dtype="6" dname="年鉴" fname="name"  fdname="名称" />
+  <field dtype="6" dname="年鉴" fname="isbn"  fdname="isbn" />
+  <field dtype="6" dname="年鉴" fname="issuedep"  fdname="出版单位" />
+  <field dtype="6" dname="年鉴" fname="keywords"  fdname="关键词" />
+  <field dtype="7" dname="杂志" fname="cname"  fdname="名称" />
+  <field dtype="7" dname="杂志" fname="issn"  fdname="issn" />
+  <field dtype="7" dname="杂志" fname="cn"  fdname="cn" />
+  <field dtype="7" dname="杂志" fname="pubdep"  fdname="出版单位" />
+  <field dtype="8" dname="报纸" fname="cname"  fdname="名称" />
+  <field dtype="8" dname="报纸" fname="issn"  fdname="issn" />
+  <field dtype="8" dname="报纸" fname="cn"  fdname="cn" />
+  <field dtype="8" dname="报纸" fname="pubdep"  fdname="出版单位" />
+  <field dtype="9" dname="学位论文" fname="title"  fdname="名称" />
+  <field dtype="9" dname="学位论文" fname="academy"  fdname="所属院系" />
+  <field dtype="9" dname="学位论文" fname="instructor"  fdname="作者导师" />
+  <field dtype="9" dname="学位论文" fname="major"  fdname="主修专业" />
+  <field dtype="9" dname="学位论文" fname="keywords"  fdname="关键词" />
+  <field dtype="9" dname="学位论文" fname="degreeyear"  fdname="学位年度" />
+  <field dtype="10" dname="视频" fname="name"  fdname="名称" />
+  <field dtype="10" dname="视频" fname="author"  fdname="作者" />
+  <field dtype="10" dname="视频" fname="keywords"  fdname="关键字" />
+  <field dtype="11" dname="音频" fname="name"  fdname="名称" />
+  <field dtype="11" dname="音频" fname="author"  fdname="作者" />
+  <field dtype="11" dname="音频" fname="keywords"  fdname="关键字" />
+  <field dtype="12" dname="图片" fname="name"  fdname="名称" />
+  <field dtype="12" dname="图片" fname="source"  fdname="来源" />
+  <field dtype="16" dname="条目" fname="title"  fdname="标题" />
+  <field dtype="16" dname="条目" fname="parentname"  fdname="来源" />
+  <field dtype="16" dname="条目" fname="content"  fdname="全文" />
+  <field dtype="16" dname="条目" fname="keywords"  fdname="关键字" />
+  <field dtype="18" dname="文章" fname="name"  fdname="标题" />
+  <field dtype="18" dname="文章" fname="fulltext"  fdname="全文" />
+  <field dtype="18" dname="文章" fname="keywords"  fdname="关键字" />
+  <field dtype="18" dname="文章" fname="year"  fdname="年" />
+  <field dtype="18" dname="文章" fname="issue"  fdname="期" />
+</item>
+
+ 
+  

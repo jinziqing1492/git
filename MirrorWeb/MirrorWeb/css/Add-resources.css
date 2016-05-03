@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+/*添加资源*/
+.TYCchoice_database ul{ border-bottom:1px solid #278eca; padding-bottom:15px;}
+.TYCchoice_database li{float:left; padding:10px 0; text-align:center; width:92px; cursor:pointer; margin:25px 25px 0 0; border:2px solid #f3f3f3;}
+.TYCchoice_database li:hover{border:2px solid #5b7a0c;}
+.TYCchoice_database li.TYCchoice_pitchOn{ background:url(../images/TYchoicePichOn.png) no-repeat right bottom; border:2px solid #1770c2;}
+.TYCchoice_database li p{ line-height:30px; font-weight:bold; color:#063263;}
+/*按钮样式*/
+.TYContainer_Btn{text-align:center; margin-top:10px;}
+.TYContainer_Btn a{ background:url(../images/TYContainer_Btn.png) no-repeat; display:inline-block; color:#fff; width:63px; 
+height:26px; text-align:center; line-height:26px; margin-right:8px;
+}
+.TYContainer_Btn input{ background:url(../images/TYContainer_Btn.png) no-repeat; color:#fff; text-align:center; line-height:26px;height:26px;border: 0 none; width:63px; margin-right:0px;
+}
+.TYContainer_BtnNew{text-align:center; background:url(../images/TYContainer_Btn.png) no-repeat; color:#fff; margin-top:10px;}
+
+/*选择期刊*/
+/*流程图*/
+.TYchoiceProcess td{ text-align:center;color:#063664; font-weight:bold;}
+.TYchoiceProcess-img td.TYchoiceProcessImg-right div,.TYchoiceProcess-img td.TYchoiceProcessImg-left div,.TYchoiceProcess-img td{background:url(../images/TYchoiceProcess-img.gif) repeat-x center center;height:25px;}
+.TYchoiceProcess-text td.TYchoiceProcesstext-left,.TYchoiceProcess-img td.TYchoiceProcessImg-left{background:none;text-align:left;}
+.TYchoiceProcess-text td.TYchoiceProcesstext-right,.TYchoiceProcess-img td.TYchoiceProcessImg-right{background:none;text-align:right;}
+.TYchoiceProcess-img span{ background:url(../images/TYinco8.gif) no-repeat; height:25px; width:24px; display:inline-block; text-align:center; line-height:25px; font-weight:bold; color:#fff;}
+.TYchoiceProcess-text{line-height:35px;}
+.TYchoiceProcess td.TYchoiceText_Active{color:#c04610;}
+.TYchoiceProcess-img .TYchoiceProcess-active span{ background:url(../images/TYchoiceInco2.gif) no-repeat;}
+.TYchoiceProcess-img td.TYchoiceProcess-active,.TYchoiceProcess-img td.TYchoiceProcess-active div{background:url(../images/TYchoiceProcess-active.gif) repeat-x center center;}
+/*期刊列表*/
+.TYperiodical_List{padding-top:15px;}
+.TYadd_new a{background:url(../images/TYadd_new.png) no-repeat left center; padding-left:20px; color:#356d29; font-weight:bold; vertical-align:bottom; height:29px; line-height:29px; display:inline-block;}
+/*期刊table*/
+.TYContainer_Table{ border:1px solid #91c2d4;}
+.TYContainer_Table thead th{ background:url(../images/TYtable_thBG.png) repeat-x; border-bottom:1px solid #acc8d2; height:31px; line-height:31px; color:#075587; text-align:left; padding-left:15px;}
+.TYContainer_Table tbody td{ line-height:36px; padding-left:15px; text-align:left; border-bottom:1px solid #91c2d4;}
+.TYContainer_Table tbody td input{margin-right:5px;}
+.TYContainer_Table tbody td.TYperiodical_name{color:#356d29;}
+.TYContainer_Table tbody td a{color:#c04610; padding-right:5px;}
+.TYContainer_Table tbody td a img{margin-bottom:-4px; padding-right:5px;}
+.TYContainer_Table tfoot td{ background:url(../images/TYtable_tfoot.png) repeat-x; height:30px; line-height:30px; color:#3d8fb5; padding-left:15px;}
+.TYContainer_Table tfoot td span,.TYContainer_Table tfoot td a{color:#3d8fb5; padding-right:8px;}
+.TYContainer_Table tfoot input{height:14px; width:30px; margin:0 5px;}
+.TYpubGo img{margin-bottom:-4px; padding-right:5px;}
+.TYtabkePage_information{padding-left:15px; background:url(../images/TYTablePage_Information.png) no-repeat left center;}
+
+/*密码修改*/
+.TYTable_UserPwd{ padding-left:20px; width: 600px; height:220px; color:#658fd4;border-bottom:#91c2d4 thin solid;border-left:#91c2d4 thin solid;border-right:#91c2d4 thin solid;
+                 border-top:#91c2d4 thin solid;font-size:12px;font-family:"新宋体";overflow:auto;width: 430px; height:200px;}	 
+.TYTabletd_UserPwd{width: 120px;text-align:right;padding-top:4px;padding-left:4px;padding-right:4px;padding-bottom:4px; border-bottom:1px #91c2d4;}
+
+/*录入信息——图书基本信息*/
+.TYEnter_BookInformation{padding-bottom:25px; border-bottom:1px solid #268ec9;}
+.TYBookInformation_text{width:100%;}
+.TYBookInformation_text table td{ vertical-align:top;}
+.TYBookInformation_text table td table td{padding-top:20px;}
+table td.TYBookText_title{text-align:right;color:#063664;width:15%;padding-right:5px; vertical-align:middle;}
+.TYBookInformation_text table td img.TYAddElem{margin-left: 7px; vertical-align: middle; width:14px; height:14px;}
+.TYBookInformation_text table td img.TYDeleteElem{margin-left: 7px; vertical-align: middle; width:14px; height:14px}
+
+.TYBookInformation_text table td select,.TYBookInformation_text table td input,.TYBookInformation_text table td textarea{border:1px solid #bab7b7;color:#333333;font-size:13px;padding:2px 0; width: 80%;}
+.TYBookInformation_text table td select,.TYBookInformation_text table td input{height:18px; width:90%;}
+.TYBookInformation_text table td select.infoSelect{height:25px;}
+.TYBookInformation_text table td input.TYSingleInput{width:96%;}
+.TYBookInformation_text table td input.TYkeywordInput{width:80%;}
+.TYBookInformation_text table td textarea{ width:96%;}
+.TYBookInformation_text table td textarea.TYImgTa{ width:90%;}
+
+.TYenter_target{text-align:right;width:193px;padding-left:15px;}
+.TYenterTarget_btn{border:1px solid #bebebe; padding:0 0px; width:99%; margin-top:10px; display:inline-block;  text-align:center;}/*cursor:pointer;*/
+.TYUploadFType{width:100%; margin-top:20px;display:inline-block; height:22px;text-align:center;}
+.TYenterTarget_btn a{color:#063664; line-height:30px;}
+.TYenclosure{margin-top:10px;}
+.TYenclosure table{border-collapse:collapse; width:100%;}
+.TYBookInformation_text table td .TYenclosure table td{border:1px solid #bdbdbd;empty-cells:show; padding:0; text-align:left;}
+.TYBookInformation_text table td .TYenclosure table td.TYenclosure_title{ background:#eef3f4;color:#063664; line-height:25px; vertical-align:middle; text-align:right;}
+.TYenclosure_list{padding-left:5px;}
+.TYenclosure_list li{padding-top:8px; background:url(../images/TYsubnav_Subrdinate1.png) no-repeat left 10px; padding-left:16px; line-height:18px;}
+.TYenclosure_list li span{color:#666;}
+.TYenclosure_list li a{color:#f00; padding-left:6px;}
+
+/*期刊基本信息*/
+.TYPeriodcal_information{padding:10px 0 20px 0; border-bottom:1px solid #268ec9;}
+.TYPeriodcal_information td{padding-top:25px;}
+.TYPeriodcal_information table td input{height:18px;}
+.TYPeriodcal_information table td select,.TYPeriodcal_information table td input,.TYPeriodcal_information table td textarea{border:1px solid #bab7b7;color:#333333;font-size:13px;padding:2px 0; width:99%;}
+.TYPeriodcal_information table td span{padding-right:8px;}
+.TYPeriodcal_information table td input.TYBookText_radio{width:5%;}
+
+
+/*期刊选项卡*/
+.TYTab_terrace{ border:1px solid #188ac6; margin-top:25px;}
+.TYTabTerrace_title{ background:url(../images/TYTabTerrace_title.png) repeat-x;padding:6px 0 0 8px; height:30px; line-height:30px;}
+.TYTabTerrace_title a{color:#fff; font-weight:bold; font-size:14px;padding:0 12px; height:29px; display:inline-block;}
+.TYTabTerrace_title a.TYTab_active{ background:#fff; color:#075587; border:1px solid #188ac6; border-bottom:0 none;}
+/*选项卡——期刊*/
+.TYTab_terrace{padding-bottom:45px;}
+.TYTabTerrace_add{padding:15px 25px;}
+.TYTabTerrace_Table{padding:0 25px;}
+.TYTabTerrace_Table table{border:1px solid #91c2d4;}
+.TYTabTerrace_Table thead th{ background:url(../images/TYtable_thBG.png) repeat-x; border-bottom:1px solid #acc8d2; height:31px; line-height:31px; color:#075587; text-align:left; padding-left:15px;}
+.TYTabTerrace_Table tbody td{line-height:36px;text-align:left; border-bottom:1px solid #91c2d4; padding:15px 0 15px 15px;}
+.TYTabTerrace_Table tbody td input{margin-right:5px;}
+.TYTabTerrace_Table tbody td.TYperiodical_name{color:#356d29;}
+.TYTabTerrace_Table tbody td a{color:#c04610; padding-right:5px;}
+.TYTabTerrace_Table tbody td a img{margin-bottom:-4px; padding-right:5px;}
+.TYTabTerrace_add table{width:100%;}
+.TYTabTerrace_add td{padding-top:10px;color:#075587;}
+.TYTabTerraceAdd_title{text-align:right;padding-right:10px;}
+.TYTabTerrace_add td input{width:90%;padding:2px 0; border:1px solid #bab7b7;color:#333333; height:18px;}
+.TYTabTerrace_add td input.TYTabTerraceadd_btn{ background:url(../images/TYContainer_Btn.png) no-repeat; height:26px; width:63px; border:0 none;color:#fff;}
+.TYTabTerrace_Table tbody td.TYwithout_examine a{color:#b31a01;}
+.TYTabTerrace_Table tbody td.TYexamined a{color:#356d29;}
+a.chooseWorker{ background:url(../images/TYContainer_Btn.png) no-repeat; display:inline-block; color:#fff; width:63px; height:26px; text-align:center; line-height:26px; margin-right:8px;}

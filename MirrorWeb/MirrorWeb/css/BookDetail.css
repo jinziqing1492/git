@@ -1,0 +1,193 @@
+﻿.sgbmr {
+    float: left;
+    padding-left: 5px;
+    width: 78%;
+}
+.summary {
+    overflow: hidden;
+    padding-top: 5px;
+}
+.summary li {
+    line-height: 18px;
+    padding-top: 5px;
+    padding: 4px 0 4px 20px;
+}
+.summary li span {
+    color: #57A000;
+    display: inline-block;
+    font-size: 14px;
+    width: 90px;
+}
+.summary li span.sAuthor {
+   /* float: left;*/
+}
+.summary li em {
+    float: left;
+    width: 500px;
+}
+.coverimg {
+    border: 1px solid #A2B4EE;
+    height: 194px;
+    margin: 0;
+    padding: 0;
+    width: 143px;
+}
+.singleBook {
+    overflow: hidden;
+}
+.singleDetail h2 {
+    background-color: #DBE3FF;
+    color: #57A000;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 25px;
+}
+.singleDetail {
+    overflow: hidden;
+    padding-top: 18px;
+}
+.sgbName {
+    color: #57A000;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 47px;
+    text-align: center;
+}
+.sgbml {
+    float: left;
+   /* overflow: hidden;*/
+    width: 19%;
+}
+.sm {
+    line-height: 20px;
+    padding: 5px 20px 0;
+    text-align: justify;
+    text-indent: 2em;
+}
+.sm p a {
+    color: #CC0004;
+    line-height: 26px;
+    text-indent: 0;
+}
+.sm span a {
+    background: url("../images/icon-book.png") no-repeat scroll 10px 6px transparent;
+    display: block;
+    line-height: 22px;
+    padding-left: 24px;
+    text-indent: 0;
+       color: #323232;
+    text-decoration: none;
+}
+
+.btn-book {
+    height: 31px;
+    padding: 4px 0 0 14px;
+}
+.btn-book a {
+    float: left;
+    height: 31px;
+    margin-right: 10px;
+}
+
+.btn-online {
+    background: url("../images/btn-online.png") no-repeat scroll 0 0 transparent;
+    width: 103px;
+}
+.btn-download {
+    background: url("../images/btn-download.png") no-repeat scroll 0 0 transparent;
+    width: 103px;
+}
+.btn-entryview {
+    background: url("../images/btn-entryview.png") no-repeat scroll 0 0 transparent;
+    width: 103px;
+}
+.btn-articleview {
+    background: url("../images/btn-article.png") no-repeat scroll 0 0 transparent;
+    width: 103px;
+}
+.btn-chapterbuy{ 
+    background:url(../images/chapterread.png) no-repeat scroll 0 0 transparent; 
+    width:103px;
+}
+.btn-favorite{ 
+    background:url(../images/btn-favorite.png) no-repeat scroll 0 0 transparent; 
+    width:61px;
+}
+.book-price {
+    background-color: #DBE3FF;border: 1px solid #A2B4EE;margin-top: 0;
+    padding: 0 0 5px;
+}
+/**------------------- 细览图片 -------------------*/
+.zoom_images_thumb{ width:140px; height:196px;border: 2px solid #CCCCCC;}
+.zoom_images_thumb_img{ display:block; width:100%; height:100%;}
+.zoom_images_clicka{ background:url(<%=SearchImgSrc%>) no-repeat 16px 0; line-height:30px; height:34px; padding-left:37px; color:#ce0007;}
+/**------------------- 细览图片 -------------------*/
+
+
+.SKright-title a{color:#008dff;}
+.SKright-title{background:url(../images/icon3.gif) no-repeat left center; padding-left:25px; line-height:25px; border-bottom:1px solid #367fc3; position:relative;}
+.skReturn{position:absolute; right:10px; top:0px;*top:-5px;}
+.skReturn a{ background:url(../images/skreturn-bg.png) no-repeat left 0; line-height:25px; padding-left:20px; color:#4b8802;}
+.book-cablet{margin-top:5px; border:1px solid #6d9bba; background:#f2f5f7;}
+.bookBase-intro{padding:15px;_padding:0; zoom:1;}
+.xlbook-img{float:left; padding:0 20px;}
+.xlbook-img img{width:114px; height:161px; padding:5px; background:#fff; border:1px solid #9fc1e6;}
+.xlbook-text{margin-left:10px; float:left; line-height:25px; width:72%; font-size:13px;}
+.xlbook-text a{color:#4b8802;}
+.xlbook-text h2{line-height:35px; font-size:16px;}
+.xlbook-text p{float:left; width:50%;_width:45%;}
+.xlbook-text p.xlkeywords{overflow:hidden; width:100%;}
+.xlbook-text span{padding-right:5px;}
+.xlbook-text .prompt{overflow:hidden; width:100%; color:#145f9c; line-height:30px;}
+.xlbook-text .prompt a{color:#cf0d0d; text-decoration:underline;}
+.XLContent-tit{background:#e0ecf9;color:#4b8802; font:12px/30px 宋体; height:30px; padding:0 15px; }
+.XLContent-titb{background:#e0ecf9;color:#4b8802; font:12px/30px 宋体; height:30px; padding:0 15px; }
+.xlTiltzoom{float:right; padding-top:8px;}
+.xlTiltzoom a{ background:url(../images/shrink.png) no-repeat; height:14px; width:8px; display:inline-block;}
+.xlTiltzoom a.xlshow{background:url(../images/spread.png) no-repeat;height:14px; width:8px; display:inline-block;}
+
+/*逻辑库*/
+.XLContent-textLogicDB{ line-height:24px; color:#323232; height:auto;}
+
+/*目录*/
+.XLContent-text{ padding: 10px 10px 5px 15px; line-height:24px; color:#323232; height:auto; 
+                 overflow-y:scroll;
+                 scrollbar-face-color: #e0ecf9; 
+                scrollbar-shadow-color: #d2e5f4; 
+                scrollbar-highlight-color: #d2e5f4; 
+                scrollbar-3dlight-color: #ffffff; 
+                scrollbar-darkshadow-color: #ffffff; 
+                scrollbar-track-color: #ffffff; 
+                scrollbar-arrow-color: #d2e5f4;
+            }
+            
+/*内容简介*/           
+.XLIntroduction-text{ padding: 10px 10px 5px 15px; line-height:24px; color:#323232; text-indent: 2em; height:auto;
+                 overflow-y:scroll;
+                 scrollbar-face-color: #e0ecf9; 
+                scrollbar-shadow-color: #d2e5f4; 
+                scrollbar-highlight-color: #d2e5f4; 
+                scrollbar-3dlight-color: #ffffff; 
+                scrollbar-darkshadow-color: #ffffff; 
+                scrollbar-track-color: #ffffff; 
+                scrollbar-arrow-color: #d2e5f4;
+                      }
+
+.xlcatalogue ul li ul{ margin-left:15px; display:none;}
+.xlcatalogue img{  cursor:pointer; margin-bottom:-1px;}
+.xlcatalogue a{  cursor:pointer; margin-left:7px;}
+.xlcatalogue a:hover{ cursor:pointer;font-weight:bold;}
+.waitdata{ margin: 0 auto; text-align: center;}
+
+
+
+.attopt{background-color: #DBE3FF;color: #57A000;  background: url("../images/pdown.gif") no-repeat scroll  transparent;padding-left: 16px; }
+
+
+.articletd
+{
+    height:24px;
+    line-height:24px;
+    text-indent:1.5em;    
+}

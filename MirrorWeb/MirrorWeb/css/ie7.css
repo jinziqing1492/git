@@ -1,0 +1,17 @@
+﻿body {
+}
+#container #abctit #abctitxx label input{margin-top:0;}
+.form-container .checkBox input
+{
+    margin:0;     
+}
+.form-container .checkBox, #main-content .form-container table.radio-button-list
+{    
+    padding:0;    
+}
+.pagination .aspNetPager input.jump-button
+{   
+    height:18px;
+    padding-top:2px; 
+    line-height:10px;
+}

@@ -1,0 +1,153 @@
+﻿
+2016.04.25 10:30:00
+.客户信息：
+	Ip:127.0.0.1
+	浏览器:Chrome
+	浏览器版本:38
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:7000/Admin/ResourceTypeList.aspx
+	错误信息：DataBinding:“DRMS.Model.ResourceTypeInfo”不包含名为“Author”的属性。
+	错误源：System.Web
+	异常方法：System.Object GetPropertyValue(System.Object, System.String)
+	堆栈信息：   在 System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   在 System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   在 System.Web.UI.DataBinder.Eval(Object container, String expression)
+   在 System.Web.UI.TemplateControl.Eval(String expression)
+   在 ASP.adminusercontrol_resourcetypelistview_ascx.__DataBind__control4(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\AdminUserControl\ResourceTypeListView.ascx:行号 54
+   在 System.Web.UI.Control.OnDataBinding(EventArgs e)
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.Control.DataBindChildren()
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   在 System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   在 System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   在 System.Web.UI.WebControls.Repeater.DataBind()
+   在 DRMS.MirrorWeb.AdminUserControl.ResourceTypeListView.BindResourceTypeList() 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\AdminUserControl\ResourceTypeListView.ascx.cs:行号 186
+   在 DRMS.MirrorWeb.AdminUserControl.ResourceTypeListView.InitData() 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\AdminUserControl\ResourceTypeListView.ascx.cs:行号 160
+   在 DRMS.MirrorWeb.AdminUserControl.ResourceTypeListView.Page_Load(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\AdminUserControl\ResourceTypeListView.ascx.cs:行号 74
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+--------------------------------------------------------------------------------------------------
+2016.04.25 13:13:58
+.客户信息：
+	Ip:127.0.0.1
+	浏览器:Chrome
+	浏览器版本:38
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:7000/Admin/ResourceTypeList.aspx?flag=active
+	错误信息：DataBinding:“DRMS.Model.ResourceTypeInfo”不包含名为“BASEID”的属性。
+	错误源：System.Web
+	异常方法：System.Object GetPropertyValue(System.Object, System.String)
+	堆栈信息：   在 System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   在 System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   在 System.Web.UI.DataBinder.Eval(Object container, String expression)
+   在 System.Web.UI.TemplateControl.Eval(String expression)
+   在 ASP.adminusercontrol_resourcetypelistview_ascx.__DataBind__control4(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\AdminUserControl\ResourceTypeListView.ascx:行号 60
+   在 System.Web.UI.Control.OnDataBinding(EventArgs e)
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.Control.DataBindChildren()
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   在 System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   在 System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   在 System.Web.UI.WebControls.Repeater.DataBind()
+   在 DRMS.MirrorWeb.AdminUserControl.ResourceTypeListView.BindResourceTypeList() 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\AdminUserControl\ResourceTypeListView.ascx.cs:行号 186
+   在 DRMS.MirrorWeb.AdminUserControl.ResourceTypeListView.InitData() 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\AdminUserControl\ResourceTypeListView.ascx.cs:行号 160
+   在 DRMS.MirrorWeb.AdminUserControl.ResourceTypeListView.Page_Load(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\AdminUserControl\ResourceTypeListView.ascx.cs:行号 74
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+--------------------------------------------------------------------------------------------------
+2016.04.25 13:35:45
+.客户信息：
+	Ip:127.0.0.1
+	浏览器:Chrome
+	浏览器版本:38
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:7000/Admin/ResourceTypeList.aspx
+	错误信息：DataBinding:“DRMS.Model.ResourceTypeInfo”不包含名为“BASEID”的属性。
+	错误源：System.Web
+	异常方法：System.Object GetPropertyValue(System.Object, System.String)
+	堆栈信息：   在 System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   在 System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   在 System.Web.UI.DataBinder.Eval(Object container, String expression)
+   在 System.Web.UI.TemplateControl.Eval(String expression)
+   在 ASP.adminusercontrol_resourcetypelistview_ascx.__DataBind__control4(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\AdminUserControl\ResourceTypeListView.ascx:行号 60
+   在 System.Web.UI.Control.OnDataBinding(EventArgs e)
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.Control.DataBindChildren()
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   在 System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   在 System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   在 System.Web.UI.WebControls.Repeater.DataBind()
+   在 DRMS.MirrorWeb.AdminUserControl.ResourceTypeListView.BindResourceTypeList() 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\AdminUserControl\ResourceTypeListView.ascx.cs:行号 186
+   在 DRMS.MirrorWeb.AdminUserControl.ResourceTypeListView.InitData() 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\AdminUserControl\ResourceTypeListView.ascx.cs:行号 160
+   在 DRMS.MirrorWeb.AdminUserControl.ResourceTypeListView.Page_Load(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\AdminUserControl\ResourceTypeListView.ascx.cs:行号 74
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+--------------------------------------------------------------------------------------------------
+2016.04.25 13:36:14
+.客户信息：
+	Ip:127.0.0.1
+	浏览器:Chrome
+	浏览器版本:38
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:7000/Admin/ResourceTypeList.aspx
+	错误信息：DataBinding:“DRMS.Model.ResourceTypeInfo”不包含名为“BASEID”的属性。
+	错误源：System.Web
+	异常方法：System.Object GetPropertyValue(System.Object, System.String)
+	堆栈信息：   在 System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   在 System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   在 System.Web.UI.DataBinder.Eval(Object container, String expression)
+   在 System.Web.UI.TemplateControl.Eval(String expression)
+   在 ASP.adminusercontrol_resourcetypelistview_ascx.__DataBind__control4(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\AdminUserControl\ResourceTypeListView.ascx:行号 60
+   在 System.Web.UI.Control.OnDataBinding(EventArgs e)
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.Control.DataBindChildren()
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   在 System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   在 System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   在 System.Web.UI.WebControls.Repeater.DataBind()
+   在 DRMS.MirrorWeb.AdminUserControl.ResourceTypeListView.BindResourceTypeList() 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\AdminUserControl\ResourceTypeListView.ascx.cs:行号 186
+   在 DRMS.MirrorWeb.AdminUserControl.ResourceTypeListView.InitData() 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\AdminUserControl\ResourceTypeListView.ascx.cs:行号 160
+   在 DRMS.MirrorWeb.AdminUserControl.ResourceTypeListView.Page_Load(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\AdminUserControl\ResourceTypeListView.ascx.cs:行号 74
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+--------------------------------------------------------------------------------------------------

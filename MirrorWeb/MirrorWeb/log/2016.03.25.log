@@ -1,0 +1,217 @@
+﻿
+2016.03.25 16:47:57
+.客户信息：
+	Ip:127.0.0.1
+	浏览器:IE
+	浏览器版本:8
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:7000/Admin/OwnerBookItem.aspx?doi=47c87896-eb87-4a17-80ad-122377810653&baseid=BBAC
+	错误信息：未能找到路径“H:\doc\journal\47c87896-eb87-4a17-80ad-122377810653”的一部分。
+	错误源：mscorlib
+	异常方法：Void WinIOError(Int32, System.String)
+	堆栈信息：   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   在 System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   在 System.IO.Directory.CreateDirectory(String path)
+   在 DRMS.MirrorWeb.Admin.OwnerBookItem.UploadCover(JournalYearInfo info, String& message) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Admin\OwnerBookItem.aspx.cs:行号 216
+   在 DRMS.MirrorWeb.Admin.OwnerBookItem.btnOk_Click(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Admin\OwnerBookItem.aspx.cs:行号 122
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+--------------------------------------------------------------------------------------------------
+2016.03.25 16:48:39
+.客户信息：
+	Ip:127.0.0.1
+	浏览器:IE
+	浏览器版本:8
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:7000/Admin/OwnerBookItem.aspx?baseid=BBAC
+	错误信息：未能找到路径“H:\doc\journal\46e91cee-2216-4087-b15d-cab5a97b5bae”的一部分。
+	错误源：mscorlib
+	异常方法：Void WinIOError(Int32, System.String)
+	堆栈信息：   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   在 System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   在 System.IO.Directory.CreateDirectory(String path)
+   在 DRMS.MirrorWeb.Admin.OwnerBookItem.UploadCover(JournalYearInfo info, String& message) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Admin\OwnerBookItem.aspx.cs:行号 216
+   在 DRMS.MirrorWeb.Admin.OwnerBookItem.btnOk_Click(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Admin\OwnerBookItem.aspx.cs:行号 122
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+--------------------------------------------------------------------------------------------------
+2016.03.25 17:02:44
+.客户信息：
+	Ip:127.0.0.1
+	浏览器:IE
+	浏览器版本:8
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:7000/Admin/OwnerBookItem.aspx?doi=47c87896-eb87-4a17-80ad-122377810653&baseid=BBAC
+	错误信息：未能找到路径“H:\doc\journal\47c87896-eb87-4a17-80ad-122377810653”的一部分。
+	错误源：mscorlib
+	异常方法：Void WinIOError(Int32, System.String)
+	堆栈信息：   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   在 System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   在 System.IO.Directory.CreateDirectory(String path)
+   在 DRMS.MirrorWeb.Admin.OwnerBookItem.UploadCover(JournalYearInfo info, String& message) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Admin\OwnerBookItem.aspx.cs:行号 216
+   在 DRMS.MirrorWeb.Admin.OwnerBookItem.btnOk_Click(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Admin\OwnerBookItem.aspx.cs:行号 122
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+--------------------------------------------------------------------------------------------------
+2016.03.25 17:05:00
+.客户信息：
+	Ip:127.0.0.1
+	浏览器:IE
+	浏览器版本:8
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:7000/Admin/OwnerBookItem.aspx?doi=47c87896-eb87-4a17-80ad-122377810653&baseid=BBAC
+	错误信息：未能找到路径“H:\doc\journal\47c87896-eb87-4a17-80ad-122377810653”的一部分。
+	错误源：mscorlib
+	异常方法：Void WinIOError(Int32, System.String)
+	堆栈信息：   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   在 System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   在 System.IO.Directory.CreateDirectory(String path)
+   在 DRMS.MirrorWeb.Admin.OwnerBookItem.UploadCover(JournalYearInfo info, String& message) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Admin\OwnerBookItem.aspx.cs:行号 216
+   在 DRMS.MirrorWeb.Admin.OwnerBookItem.btnOk_Click(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Admin\OwnerBookItem.aspx.cs:行号 122
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+--------------------------------------------------------------------------------------------------
+2016.03.25 17:05:59
+.客户信息：
+	Ip:127.0.0.1
+	浏览器:IE
+	浏览器版本:8
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:7000/Admin/OwnerBookItem.aspx?doi=47c87896-eb87-4a17-80ad-122377810653&baseid=BBAC
+	错误信息：未能找到路径“H:\doc\journal\47c87896-eb87-4a17-80ad-122377810653”的一部分。
+	错误源：mscorlib
+	异常方法：Void WinIOError(Int32, System.String)
+	堆栈信息：   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   在 System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   在 System.IO.Directory.CreateDirectory(String path)
+   在 DRMS.MirrorWeb.Admin.OwnerBookItem.UploadCover(JournalYearInfo info, String& message) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Admin\OwnerBookItem.aspx.cs:行号 216
+   在 DRMS.MirrorWeb.Admin.OwnerBookItem.btnOk_Click(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Admin\OwnerBookItem.aspx.cs:行号 122
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+--------------------------------------------------------------------------------------------------
+2016.03.25 17:06:49
+.客户信息：
+	Ip:127.0.0.1
+	浏览器:IE
+	浏览器版本:8
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:7000/Admin/OwnerBookItem.aspx?doi=47c87896-eb87-4a17-80ad-122377810653&baseid=BBAC
+	错误信息：未能找到路径“H:\doc\journal\47c87896-eb87-4a17-80ad-122377810653”的一部分。
+	错误源：mscorlib
+	异常方法：Void WinIOError(Int32, System.String)
+	堆栈信息：   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   在 System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   在 System.IO.Directory.CreateDirectory(String path)
+   在 DRMS.MirrorWeb.Admin.OwnerBookItem.UploadCover(JournalYearInfo info, String& message) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Admin\OwnerBookItem.aspx.cs:行号 216
+   在 DRMS.MirrorWeb.Admin.OwnerBookItem.btnOk_Click(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Admin\OwnerBookItem.aspx.cs:行号 122
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+--------------------------------------------------------------------------------------------------
+2016.03.25 17:08:32
+.客户信息：
+	Ip:127.0.0.1
+	浏览器:IE
+	浏览器版本:8
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:7000/Admin/OwnerBookItem.aspx?doi=47c87896-eb87-4a17-80ad-122377810653&baseid=BBAC
+	错误信息：未能找到路径“H:\doc\journal\47c87896-eb87-4a17-80ad-122377810653”的一部分。
+	错误源：mscorlib
+	异常方法：Void WinIOError(Int32, System.String)
+	堆栈信息：   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   在 System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   在 System.IO.Directory.CreateDirectory(String path)
+   在 DRMS.MirrorWeb.Admin.OwnerBookItem.UploadCover(JournalYearInfo info, String& message) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Admin\OwnerBookItem.aspx.cs:行号 216
+   在 DRMS.MirrorWeb.Admin.OwnerBookItem.btnOk_Click(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Admin\OwnerBookItem.aspx.cs:行号 122
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+--------------------------------------------------------------------------------------------------
+2016.03.25 17:09:50
+.客户信息：
+	Ip:127.0.0.1
+	浏览器:IE
+	浏览器版本:8
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:7000/Admin/OwnerBookItem.aspx?doi=47c87896-eb87-4a17-80ad-122377810653&baseid=BBAC
+	错误信息：未能找到路径“H:\doc\journal\47c87896-eb87-4a17-80ad-122377810653”的一部分。
+	错误源：mscorlib
+	异常方法：Void WinIOError(Int32, System.String)
+	堆栈信息：   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   在 System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   在 System.IO.Directory.CreateDirectory(String path)
+   在 DRMS.MirrorWeb.Admin.OwnerBookItem.UploadCover(JournalYearInfo info, String& message) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Admin\OwnerBookItem.aspx.cs:行号 216
+   在 DRMS.MirrorWeb.Admin.OwnerBookItem.btnOk_Click(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Admin\OwnerBookItem.aspx.cs:行号 122
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+--------------------------------------------------------------------------------------------------
+2016.03.25 17:12:31
+.客户信息：
+	Ip:127.0.0.1
+	浏览器:IE
+	浏览器版本:8
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:7000/Admin/OwnerBookItem.aspx?doi=47c87896-eb87-4a17-80ad-122377810653&baseid=BBAC
+	错误信息：未能找到路径“H:\doc\journal\47c87896-eb87-4a17-80ad-122377810653”的一部分。
+	错误源：mscorlib
+	异常方法：Void WinIOError(Int32, System.String)
+	堆栈信息：   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   在 System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   在 System.IO.Directory.CreateDirectory(String path)
+   在 DRMS.MirrorWeb.Admin.OwnerBookItem.UploadCover(JournalYearInfo info, String& message) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Admin\OwnerBookItem.aspx.cs:行号 216
+   在 DRMS.MirrorWeb.Admin.OwnerBookItem.btnOk_Click(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Admin\OwnerBookItem.aspx.cs:行号 122
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+--------------------------------------------------------------------------------------------------

@@ -1,0 +1,159 @@
+﻿
+2016.03.14 09:52:48
+.客户信息：
+	Ip:127.0.0.1
+	浏览器:IE
+	浏览器版本:8
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:7000/View/ChapterRead.aspx?doi=63C01AA0-73E0-49b9-99D5-74928FBAB11E&type=1
+	错误信息：未将对象引用设置到对象的实例。
+	错误源：DRMS.MirrorWeb
+	异常方法：Void BindData()
+	堆栈信息：   在 DRMS.MirrorWeb.UserControl.CharpterTree.BindData() 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\UserControl\CharpterTree.ascx.cs:行号 88
+   在 DRMS.MirrorWeb.UserControl.CharpterTree.Page_Load(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\UserControl\CharpterTree.ascx.cs:行号 29
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+--------------------------------------------------------------------------------------------------
+2016.03.14 09:53:09
+.客户信息：
+	Ip:127.0.0.1
+	浏览器:IE
+	浏览器版本:8
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:7000/View/ChapterRead.aspx?doi=63C01AA0-73E0-49b9-99D5-74928FBAB11E&type=1
+	错误信息：未将对象引用设置到对象的实例。
+	错误源：DRMS.MirrorWeb
+	异常方法：Void BindData()
+	堆栈信息：   在 DRMS.MirrorWeb.UserControl.CharpterTree.BindData() 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\UserControl\CharpterTree.ascx.cs:行号 88
+   在 DRMS.MirrorWeb.UserControl.CharpterTree.Page_Load(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\UserControl\CharpterTree.ascx.cs:行号 29
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+--------------------------------------------------------------------------------------------------
+2016.03.14 12:02:30
+.客户信息：
+	Ip:127.0.0.1
+	浏览器:IE
+	浏览器版本:8
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:7000/admin/BookList.aspx
+	错误信息：DataBinding:“DRMS.Model.BookInfo”不包含名为“UserName”的属性。
+	错误源：System.Web
+	异常方法：System.Object GetPropertyValue(System.Object, System.String)
+	堆栈信息：   在 System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   在 System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   在 System.Web.UI.DataBinder.Eval(Object container, String expression)
+   在 System.Web.UI.TemplateControl.Eval(String expression)
+   在 ASP.adminusercontrol_booklistview_ascx.__DataBinding__control5(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\AdminUserControl\BookListView.ascx:行号 67
+   在 System.Web.UI.Control.OnDataBinding(EventArgs e)
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.Control.DataBindChildren()
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   在 System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   在 System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   在 System.Web.UI.WebControls.Repeater.DataBind()
+   在 DRMS.MirrorWeb.AdminUserControl.BookListView.BindUserList() 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\AdminUserControl\BookListView.ascx.cs:行号 148
+   在 DRMS.MirrorWeb.AdminUserControl.BookListView.InitData() 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\AdminUserControl\BookListView.ascx.cs:行号 122
+   在 DRMS.MirrorWeb.AdminUserControl.BookListView.Page_Load(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\AdminUserControl\BookListView.ascx.cs:行号 66
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+--------------------------------------------------------------------------------------------------
+2016.03.14 12:02:43
+.客户信息：
+	Ip:127.0.0.1
+	浏览器:IE
+	浏览器版本:8
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:7000/admin/BookList.aspx
+	错误信息：DataBinding:“DRMS.Model.BookInfo”不包含名为“UserName”的属性。
+	错误源：System.Web
+	异常方法：System.Object GetPropertyValue(System.Object, System.String)
+	堆栈信息：   在 System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   在 System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   在 System.Web.UI.DataBinder.Eval(Object container, String expression)
+   在 System.Web.UI.TemplateControl.Eval(String expression)
+   在 ASP.adminusercontrol_booklistview_ascx.__DataBinding__control5(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\AdminUserControl\BookListView.ascx:行号 67
+   在 System.Web.UI.Control.OnDataBinding(EventArgs e)
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.Control.DataBindChildren()
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   在 System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   在 System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   在 System.Web.UI.WebControls.Repeater.DataBind()
+   在 DRMS.MirrorWeb.AdminUserControl.BookListView.BindUserList() 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\AdminUserControl\BookListView.ascx.cs:行号 148
+   在 DRMS.MirrorWeb.AdminUserControl.BookListView.InitData() 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\AdminUserControl\BookListView.ascx.cs:行号 122
+   在 DRMS.MirrorWeb.AdminUserControl.BookListView.Page_Load(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\AdminUserControl\BookListView.ascx.cs:行号 66
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+--------------------------------------------------------------------------------------------------
+2016.03.14 12:05:25
+.客户信息：
+	Ip:127.0.0.1
+	浏览器:IE
+	浏览器版本:8
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:7000/admin/BookList.aspx
+	错误信息：DataBinding:“DRMS.Model.BookInfo”不包含名为“UserName”的属性。
+	错误源：System.Web
+	异常方法：System.Object GetPropertyValue(System.Object, System.String)
+	堆栈信息：   在 System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   在 System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   在 System.Web.UI.DataBinder.Eval(Object container, String expression)
+   在 System.Web.UI.TemplateControl.Eval(String expression)
+   在 ASP.adminusercontrol_booklistview_ascx.__DataBinding__control5(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\AdminUserControl\BookListView.ascx:行号 67
+   在 System.Web.UI.Control.OnDataBinding(EventArgs e)
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.Control.DataBindChildren()
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   在 System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   在 System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   在 System.Web.UI.WebControls.Repeater.DataBind()
+   在 DRMS.MirrorWeb.AdminUserControl.BookListView.BindUserList() 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\AdminUserControl\BookListView.ascx.cs:行号 148
+   在 DRMS.MirrorWeb.AdminUserControl.BookListView.InitData() 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\AdminUserControl\BookListView.ascx.cs:行号 122
+   在 DRMS.MirrorWeb.AdminUserControl.BookListView.Page_Load(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\AdminUserControl\BookListView.ascx.cs:行号 66
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+--------------------------------------------------------------------------------------------------

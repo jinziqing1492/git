@@ -1,0 +1,70 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/* reset*/
+html,body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,p,a,blockquote,pre,form,fieldset,legend,input,button,textarea,hr,cite,label,strong,em,span{margin:0;padding:0;}
+img{border:none;}
+ul,ol{list-style:none; } 
+body{font:14px/1.5 '微软雅黑',Arial; color:#666;background:url(../images/NrightBg.jpg) no-repeat left top #0881ba; 
+        filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";  
+        -moz-background-size:100% 100%;  
+        background-size:100% 100%;
+}
+select,input,button{vertical-align:middle;font-size:100%;}
+fieldset,img{border:0;}
+.clear {clear:both;display:block;height:0; visibility:hidden; font:0/0 arial}
+.clearfix:after {content:"."; display: block; height: 0; clear: both; visibility: hidden; font-size:0;}
+.clearfix {*zoom:1;}
+em, i{ font-style:normal;}
+/* Hides from IE-mac \*/ 
+* html .clearfix {height: 1%;} 
+.clearfix {display: block;} 
+a, input{text-decoration:none; outline:none; color:#666;}
+a:hover{ text-decoration:underline;}
+input,button{ outline:none; }
+::-moz-focus-inner{border:0px;}
+html{ overflow:auto;}/*在Firefox浏览器下始终显示滚动条；不同浏览器的显示效果都将一致*/
+/* End hide from IE-mac */
+
+/*left*/
+.Nleft{position:absolute; left:0; top:0; width:205px; border-right:1px solid #0165aa; height:100%;}
+.Nleft_Title{padding:20px 0 8px 40px;color:#fff; }
+.Nleft_Title h2{font-size:19px; letter-spacing:2px; line-height:30px; text-align:center;}
+.Nleft_Title h3{font-size:14px; font-family:Arial;line-height:24px; text-align:center;}
+.Nleft_SubNav ul{padding-left:20px;}
+.Nleft_SubNav ul li button.level0{ display:none;}
+.Nleft_SubNav ul li a.level0{padding-left:30px; display:inline-block; display:inline-block; height:20px; line-height:20px; border:none !important;}
+.Nleft_SubNav ul li a.level0 span{ color:#76c7e3; font-size:14px; font-weight:bold; font-family:"微软雅黑", Arial}
+.Nleft_SubNav ul li.level0{padding:10px 0px 10px 20px !important;text-align:center;}
+.Nleft_SubNav1 ul li a{padding-left:30px; background:url(../images/NrightInco.jpg) no-repeat left center; display:inline-block; line-height:30px; color:#6d6d6d; font-size:14px; font-weight:bold;}
+.Nleft_SubNav1 ul li.NavLast{background:none;}
+.Nleft_SubNav ul.level0{ margin-top:10px;}
+.Nleft_SubNav ul li.level0{ border-top:1px solid #0165aa;}
+.Nleft_SubNav ul li.level1 a{ color:#fff !important; padding-left:30px;}
+/*right*/
+/*.Nright{margin-left:205px; background:url(../images/NrightBg.jpg) no-repeat left top #0881ba; position:relative;}*/
+.Nright{margin-left:205px; height:100%;}
+.Rlogin{text-align:right; padding:26px 45px 0 0; color:#89d0e9;}
+.Rlogin a{color:#fff;padding:0 15px; font-size:14px;}
+.Rcontent{width:698px; margin:0 auto;padding-top:80px;}
+.Nlogo{ text-align:center;}
+.Nsearch{padding-top:50px;}
+.Nsearch_Content{ margin-top:-1px; padding:15px 10px; height:100%; background-image:url(../images/searchtextbg.png)}
+.Nsearch_Tab{ position:relative; height:34px;}
+.Nsearch_Tab div{ background-image:url(../images/Nsearch_Tab1.png); font-size:14px; width:104px; text-align:center;height:34px; line-height:34px;margin-right:4px; font-family:'Microsoft YaHei'; font-size:15px; font-weight:bold; margin-right:0px; position:absolute; outline:none; cursor:pointer;}
+.Nsearch_Tab div.Actived{ background-image:url(../images/Nsearch_Tab3.png); z-index:1000 !important; width:118px; margin-left:-14px; color:#fff;}
+.Nsearch_Tab div.first.Actived{ background-image:url(../images/Nsearch_Tab2.png); z-index:1000 !important; width:118px; margin-left:-14px; color:#fff; left:4px !important;}
+
+.Nsearch_Input{border:1px solid #0299c7;height:28px; width:478px; float:left; background-image:url(../images/searchicon.png); background-repeat:no-repeat; background-position:center left;}
+.Nsearch_Input input{  border:0 none;height:28px; }
+.Ninput_Text{padding:0 5px 0px 30px; width:344px;background:none; float:left; color:#fff;}
+.Ninput_Btn{ background:url(../images/Ninput_Btn.png) no-repeat; width:99px; float:right; cursor:pointer;border:0 none;height:25px; line-height:28px;}
+.Ninput_Select{ width:84px; border:1px solid #0299c7; float:left; height:28px; line-height:28px; margin-left:7px; overflow:visible;z-index:100; position:relative;}
+.Ninput_Select div{ cursor:pointer; text-align:center; color:#fff;}
+.Ninput_Select ul{border: 1px solid #b0a296; z-index:100; background-color:white; display:none; cursor:pointer;}
+.Ninput_Select ul li{ text-align:center;}
+.Ninput_Select ul li:hover{ background-color:#d4d4d4;}
+.Nhot_Word {padding-top:30px;color:#8bbed7; text-align:center;}
+/*.Nhot_Word a{color:#fff;padding:0 10px;}*/
+.Nhot_Word a{color:#fff;padding:0 10px; border:1px solid #0299c7; display:inline-block; padding:3px 12px; margin-right:30px;}
+
+.Nfooter{text-align:center; position:absolute; bottom:26px; left:0; color:#fff; width:100%; font-size:12px;}

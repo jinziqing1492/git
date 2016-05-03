@@ -1,0 +1,18 @@
+﻿
+2015.10.19 14:00:30
+.客户信息：
+	Ip:127.0.0.1
+	浏览器:IE
+	浏览器版本:8
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:7000/Admin/OwnerList.aspx
+	错误信息：未将对象引用设置到对象的实例。
+	错误源：DRMS.MirrorWeb
+	异常方法：Void Page_Load(System.Object, System.EventArgs)
+	堆栈信息：   在 DRMS.MirrorWeb.Admin.OwnerList.Page_Load(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Admin\OwnerList.aspx.cs:行号 14
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+--------------------------------------------------------------------------------------------------

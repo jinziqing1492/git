@@ -1,0 +1,65 @@
+﻿
+2015.10.16 17:04:11
+.客户信息：
+	Ip:127.0.0.1
+	浏览器:IE
+	浏览器版本:8
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:7000/test.aspx
+	错误信息：未能找到文件“E:\doc\book\0566C634-F2DE-4308-8F54-0E95596E2EB5”。
+	错误源：mscorlib
+	异常方法：Void WinIOError(Int32, System.String)
+	堆栈信息：   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 System.IO.File.Move(String sourceFileName, String destFileName)
+   在 DRMS.MirrorWeb.Test.BindData() 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Test.aspx.cs:行号 36
+   在 DRMS.MirrorWeb.Test.Page_Load(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Test.aspx.cs:行号 20
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+--------------------------------------------------------------------------------------------------
+2015.10.16 17:06:19
+.客户信息：
+	Ip:127.0.0.1
+	浏览器:IE
+	浏览器版本:8
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:7000/test.aspx
+	错误信息：未能找到路径中的某个部分。
+	错误源：mscorlib
+	异常方法：Void WinIOError(Int32, System.String)
+	堆栈信息：   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.Directory.InternalMove(String sourceDirName, String destDirName, Boolean checkHost)
+   在 System.IO.Directory.Move(String sourceDirName, String destDirName)
+   在 DRMS.MirrorWeb.Test.BindData() 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Test.aspx.cs:行号 38
+   在 DRMS.MirrorWeb.Test.Page_Load(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Test.aspx.cs:行号 20
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+--------------------------------------------------------------------------------------------------
+2015.10.16 17:08:34
+.客户信息：
+	Ip:127.0.0.1
+	浏览器:IE
+	浏览器版本:8
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:7000/test.aspx
+	错误信息：当文件已存在时，无法创建该文件。
+
+	错误源：mscorlib
+	异常方法：Void WinIOError(Int32, System.String)
+	堆栈信息：   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.Directory.InternalMove(String sourceDirName, String destDirName, Boolean checkHost)
+   在 System.IO.Directory.Move(String sourceDirName, String destDirName)
+   在 DRMS.MirrorWeb.Test.BindData() 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Test.aspx.cs:行号 38
+   在 DRMS.MirrorWeb.Test.Page_Load(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Test.aspx.cs:行号 20
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+--------------------------------------------------------------------------------------------------

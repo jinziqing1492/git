@@ -1,0 +1,48 @@
+﻿
+2016.04.26 10:03:36
+.客户信息：
+	Ip:127.0.0.1
+	浏览器:Chrome
+	浏览器版本:38
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:7000/Admin/ResourceDataItem.aspx
+	错误信息：未能加载类型“DRMS.MirrorWeb.Admin.ResourceDataItem”。
+	错误源：System.Web
+	异常方法：System.Type GetType(System.String, Boolean, Boolean)
+	堆栈信息：   在 System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase, Boolean throwOnError)
+   在 System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   在 System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+--------------------------------------------------------------------------------------------------
+2016.04.26 10:03:41
+.客户信息：
+	Ip:127.0.0.1
+	浏览器:Chrome
+	浏览器版本:38
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:7000/Admin/ResourceDataList.aspx
+	错误信息：未能加载类型“DRMS.MirrorWeb.Admin.ResourceDataList”。
+	错误源：System.Web
+	异常方法：System.Type GetType(System.String, Boolean, Boolean)
+	堆栈信息：   在 System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase, Boolean throwOnError)
+   在 System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   在 System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+--------------------------------------------------------------------------------------------------
+2016.04.26 10:33:32
+.客户信息：
+	Ip:127.0.0.1
+	浏览器:Chrome
+	浏览器版本:38
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:7000/Admin/ResourceDataList.aspx
+	错误信息：未将对象引用设置到对象的实例。
+	错误源：DRMS.MirrorWeb
+	异常方法：Void Page_Load(System.Object, System.EventArgs)
+	堆栈信息：   在 DRMS.MirrorWeb.Admin.ResourceDataList.Page_Load(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Admin\ResourceDataList.aspx.cs:行号 16
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+--------------------------------------------------------------------------------------------------

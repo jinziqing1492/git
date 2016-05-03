@@ -1,0 +1,18 @@
+﻿
+2015.07.22 09:16:47
+.客户信息：
+	Ip:::1
+	浏览器:IE
+	浏览器版本:10
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:4702/images/icon_triangle_blue.gif
+	错误信息：文件不存在。
+	错误源：System.Web
+	异常方法：System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+	堆栈信息：   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--------------------------------------------------------------------------------------------------

@@ -1,0 +1,72 @@
+﻿
+2015.10.21 09:53:41
+.客户信息：
+	Ip:127.0.0.1
+	浏览器:IE
+	浏览器版本:8
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:7000/Admin/OwnerBookItem.aspx?doi=2F6922D5-9E2F-48f5-A887-01B6B7E958C3&baseid=GQBW&flag=active
+	错误信息：SaveAs 方法被配置为需要根路径，但是路径“doc\journal\2F6922D5-9E2F-48f5-A887-01B6B7E958C3\2F6922D5-9E2F-48f5-A887-01B6B7E958C3.png”不是根路径。
+	错误源：System.Web
+	异常方法：Void SaveAs(System.String)
+	堆栈信息：   在 System.Web.HttpPostedFile.SaveAs(String filename)
+   在 DRMS.MirrorWeb.Admin.OwnerBookItem.UploadCover(JournalYearInfo info, String& message) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Admin\OwnerBookItem.aspx.cs:行号 196
+   在 DRMS.MirrorWeb.Admin.OwnerBookItem.btnOk_Click(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Admin\OwnerBookItem.aspx.cs:行号 111
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+--------------------------------------------------------------------------------------------------
+2015.10.21 10:21:38
+.客户信息：
+	Ip:127.0.0.1
+	浏览器:IE
+	浏览器版本:8
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:7000/Admin/OwnerBookItem.aspx?doi=2F6922D5-9E2F-48f5-A887-01B6B7E958C3&baseid=GQBW&flag=active
+	错误信息：未能找到路径“D:\avic\source\镜像库\MirrorWeb\MirrorWeb\Admin\doc\journal\2F6922D5-9E2F-48f5-A887-01B6B7E958C3\2F6922D5-9E2F-48f5-A887-01B6B7E958C3.png”的一部分。
+	错误源：mscorlib
+	异常方法：Void WinIOError(Int32, System.String)
+	堆栈信息：   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode)
+   在 System.Web.HttpPostedFile.SaveAs(String filename)
+   在 DRMS.MirrorWeb.Admin.OwnerBookItem.UploadCover(JournalYearInfo info, String& message) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Admin\OwnerBookItem.aspx.cs:行号 196
+   在 DRMS.MirrorWeb.Admin.OwnerBookItem.btnOk_Click(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Admin\OwnerBookItem.aspx.cs:行号 111
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+--------------------------------------------------------------------------------------------------
+2015.10.21 10:22:46
+.客户信息：
+	Ip:127.0.0.1
+	浏览器:IE
+	浏览器版本:8
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:7000/Admin/OwnerBookItem.aspx?doi=2F6922D5-9E2F-48f5-A887-01B6B7E958C3&baseid=GQBW&flag=active
+	错误信息：未能找到路径“D:\avic\source\镜像库\MirrorWeb\MirrorWeb\Admin\doc\journal\2F6922D5-9E2F-48f5-A887-01B6B7E958C3\2F6922D5-9E2F-48f5-A887-01B6B7E958C3.png”的一部分。
+	错误源：mscorlib
+	异常方法：Void WinIOError(Int32, System.String)
+	堆栈信息：   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode)
+   在 System.Web.HttpPostedFile.SaveAs(String filename)
+   在 DRMS.MirrorWeb.Admin.OwnerBookItem.UploadCover(JournalYearInfo info, String& message) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Admin\OwnerBookItem.aspx.cs:行号 196
+   在 DRMS.MirrorWeb.Admin.OwnerBookItem.btnOk_Click(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\Admin\OwnerBookItem.aspx.cs:行号 111
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+--------------------------------------------------------------------------------------------------

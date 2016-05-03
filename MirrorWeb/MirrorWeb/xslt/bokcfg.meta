@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template>
+  <group name="主要信息" label="科技类图书主要信息" xname="" xpath="" ntype="0" ctype="ROOT" cvalue="" repeat="1">
+    <element  name="书名" label="科技类图书书名" xname="title" xpath="/book" ntype="0" ctype="EDIT" cvalue="" repeat="0"><![CDATA[@TITLE]]></element>
+    <element  name="书名缩写" label="科技类图书书名缩写" xname="titleabbrev" xpath="/book" ntype="0" ctype="EDIT" cvalue="" repeat="0"/>
+    <element  name="副标题" label="科技类图书副标题" xname="subtitle" xpath="/book" ntype="0" ctype="EDIT" cvalue="" repeat="0"/>
+    <element  name="外文书名" label="科技类图书外文书名" xname="etitle" xpath="/book" ntype="0" ctype="EDIT" cvalue="" repeat="0"/>
+    <element  name="外文书名缩写" label="科技类图书外文书名缩写" xname="etitleabbrev" xpath="/book" ntype="0" ctype="EDIT" cvalue="" repeat="0"/>
+    <element  name="外文书名副标题" label="科技类图书外文书名副标题" xname="esubtitle" xpath="/book" ntype="0" ctype="EDIT" cvalue="" repeat="0"/>
+  </group>
+  <group name="基本信息" label="科技类图书基本信息" xname="info" xpath="/book" ntype="0" ctype="STATIC" cvalue="" repeat="0">
+    <element  name="类型" label="科技类图书在本系统的分类(1 - 图书，2 - 标准，3 - 工具书，4 - 期刊，5 - 会议论文，6 - 年鉴，7 - 杂志，8 - 报纸，9 - 学位论文，10 - 视频，11 - 音频，12 - 图片)" xname="booktype" xpath="/book/info" ntype="0" ctype="STATIC" cvalue="1|2|3|4|5|6|7|8|9|10|11|12" repeat="0"><![CDATA[@BOOKTYPE]]></element>
+    <element  name="标识" label="科技类图书唯一标识" xname="bookId" xpath="/book/info" ntype="0" ctype="EDIT" cvalue="" repeat="0"/>
+    <element  name="分类号" label="科技类图书分类号（如，中图）" xname="classification" xpath="/book/info" ntype="0" ctype="EDIT" cvalue="" repeat="0"><![CDATA[@SYS_FLD_CLASSFICATION]]></element>
+    <element  name="语种" label="科技类图书语种(zh-Hans - 中文(简体)，zh-Hant - 中文(繁体)，en - 英语， ja - 日语，ko-KR - 朝鲜语(韩国)，ru - 俄语，fr - 法语，de - 德语)" xname="language" xpath="/book/info" ntype="0" ctype="COMBOBOX" cvalue="zh-Hans|zh-Hant|en|ja|ko-KR|ru|fr|de" repeat="0"><![CDATA[@LANGUAGE]]></element>
+    <group name="作者组" label="科技类图书作者组信息" xname="authorgroup" xpath="/book/info" ntype="0" ctype="STATIC" cvalue="" repeat="0">
+      <group name="作者" label="作者信息" xname="author" xpath="/book/info/authorgroup" ntype="0" ctype="STATIC" cvalue="" repeat="1">
+        <element  name="责任" label="责任方式信息" xname="role" xpath="/book/info/authorgroup/author" ntype="1" ctype="COMBOBOX" cvalue="|著|编著|合著|编|主编|合编|改编|汇编|主审|审校|校译|译|编译|原著|笺注|注|校注|点校|今译|编译|合译|编制|责任编辑|校对|印制|顾问|封面设计|内插图责任者" repeat="0"/>
+        <group name="个人信息" label="作者个人信息" xname="" xpath="" ntype="0" ctype="STATIC" cvalue="" repeat="0">
+          <group name="姓名" label="作者个人姓名" xname="personname" xpath="/book/info/authorgroup/author" ntype="0" ctype="EDIT" cvalue="" repeat="0">
+          <![CDATA[@AUTHOR]]>
+            <element  name="语种" label="语种(zh-Hans - 中文(简体)，zh-Hant - 中文(繁体)，en - 英语， ja - 日语，ko-KR - 朝鲜语(韩国)，ru - 俄语，fr - 法语，de - 德语)" xname="role" xpath="/book/info/authorgroup/author/personname" ntype="1" ctype="COMBOBOX" cvalue="|zh-Hans|zh-Hant|en|ja|ko-KR|ru|fr|de" repeat="0"/>
+          </group>
+          <element  name="个人简介" label="作者个人简介" xname="personblurb" xpath="/book/info/authorgroup/author" ntype="0" ctype="EXMUL" cvalue="" repeat="0"/>
+        </group>
+        <group name="机构信息" label="机构作者信息" xname="" xpath="" ntype="0" ctype="STATIC" cvalue="" repeat="0">
+          <group name="组织机构名" label="组织机构作者姓名" xname="orgname" xpath="/book/info/authorgroup/author" ntype="0" ctype="EDIT" cvalue="" repeat="0">
+            <element  name="语种" label="语种(zh-Hans - 中文(简体)，zh-Hant - 中文(繁体)，en - 英语， ja - 日语，ko-KR - 朝鲜语(韩国)，ru - 俄语，fr - 法语，de - 德语)" xname="role" xpath="/book/info/authorgroup/author/orgname" ntype="1" ctype="COMBOBOX" cvalue="|zh-Hans|zh-Hant|en|ja|ko-KR|ru|fr|de" repeat="0"/>
+          </group>
+          <element  name="机构简介" label="组织机构作者简介" xname="orgdiv" xpath="/book/info/authorgroup/author" ntype="0" ctype="EXMUL" cvalue="" repeat="0"/>
+        </group>
+      </group>
+      <group name="作者" label="作者信息" xname="author" xpath="/book/info/authorgroup" ntype="0" ctype="STATIC" cvalue="" repeat="1">
+        <element  name="责任" label="责任方式信息" xname="role" xpath="/book/info/authorgroup/author" ntype="1" ctype="COMBOBOX" cvalue="|著|编著|合著|编|主编|合编|改编|汇编|主审|审校|校译|译|编译|原著|笺注|注|校注|点校|今译|编译|合译|编制|责任编辑|校对|印制|顾问|封面设计|内插图责任者" repeat="0"><![CDATA[责任编辑]]></element>
+        <group name="个人信息" label="作者个人信息" xname="" xpath="" ntype="0" ctype="STATIC" cvalue="" repeat="0">
+          <group name="姓名" label="作者个人姓名" xname="personname" xpath="/book/info/authorgroup/author" ntype="0" ctype="EDIT" cvalue="" repeat="0">
+          <![CDATA[@EXECUTIVEEDITOR]]>
+            <element  name="语种" label="语种(zh-Hans - 中文(简体)，zh-Hant - 中文(繁体)，en - 英语， ja - 日语，ko-KR - 朝鲜语(韩国)，ru - 俄语，fr - 法语，de - 德语)" xname="role" xpath="/book/info/authorgroup/author/personname" ntype="1" ctype="COMBOBOX" cvalue="|zh-Hans|zh-Hant|en|ja|ko-KR|ru|fr|de" repeat="0"/>
+          </group>
+          <element  name="个人简介" label="作者个人简介" xname="personblurb" xpath="/book/info/authorgroup/author" ntype="0" ctype="EXMUL" cvalue="" repeat="0"/>
+        </group>
+        <group name="机构信息" label="机构作者信息" xname="" xpath="" ntype="0" ctype="STATIC" cvalue="" repeat="0">
+          <group name="组织机构名" label="组织机构作者姓名" xname="orgname" xpath="/book/info/authorgroup/author" ntype="0" ctype="EDIT" cvalue="" repeat="0">
+            <element  name="语种" label="语种(zh-Hans - 中文(简体)，zh-Hant - 中文(繁体)，en - 英语， ja - 日语，ko-KR - 朝鲜语(韩国)，ru - 俄语，fr - 法语，de - 德语)" xname="role" xpath="/book/info/authorgroup/author/orgname" ntype="1" ctype="COMBOBOX" cvalue="|zh-Hans|zh-Hant|en|ja|ko-KR|ru|fr|de" repeat="0"/>
+          </group>
+          <element  name="机构简介" label="组织机构作者简介" xname="orgdiv" xpath="/book/info/authorgroup/author" ntype="0" ctype="EXMUL" cvalue="" repeat="0"/>
+        </group>
+      </group>
+      <group name="编者" label="编者信息" xname="editor" xpath="/book/info/authorgroup" ntype="0" ctype="STATIC" cvalue="" repeat="1">
+        <element  name="责任" label="责任方式信息" xname="role" xpath="/book/info/authorgroup/editor" ntype="1" ctype="COMBOBOX" cvalue="|著|编著|合著|编|主编|合编|改编|汇编|主审|审校|校译|译|编译|原著|笺注|注|校注|点校|今译|编译|合译|编制|责任编辑|校对|印制|顾问|封面设计|内插图责任者" repeat="0"/>
+        <group name="个人信息" label="编者个人信息" xname="" xpath="" ntype="0" ctype="STATIC" cvalue="" repeat="0">
+          <group name="姓名" label="编者个人姓名" xname="personname" xpath="/book/info/authorgroup/editor" ntype="0" ctype="EDIT" cvalue="" repeat="0">
+            <element  name="语种" label="语种(zh-Hans - 中文(简体)，zh-Hant - 中文(繁体)，en - 英语， ja - 日语，ko-KR - 朝鲜语(韩国)，ru - 俄语，fr - 法语，de - 德语)" xname="role" xpath="/book/info/authorgroup/editor/personname" ntype="1" ctype="COMBOBOX" cvalue="|zh-Hans|zh-Hant|en|ja|ko-KR|ru|fr|de" repeat="0"/>
+          </group>
+          <element  name="个人简介" label="编者个人简介" xname="personblurb" xpath="/book/info/authorgroup/editor" ntype="0" ctype="EXMUL" cvalue="" repeat="0"/>
+        </group>
+        <group name="机构信息" label="机构作者信息" xname="" xpath="" ntype="0" ctype="STATIC" cvalue="" repeat="0">
+          <group name="组织机构名" label="组织机构作者姓名" xname="orgname" xpath="/book/info/authorgroup/editor" ntype="0" ctype="EDIT" cvalue="" repeat="0">
+            <element  name="语种" label="语种(zh-Hans - 中文(简体)，zh-Hant - 中文(繁体)，en - 英语， ja - 日语，ko-KR - 朝鲜语(韩国)，ru - 俄语，fr - 法语，de - 德语)" xname="role" xpath="/book/info/authorgroup/editor/orgname" ntype="1" ctype="COMBOBOX" cvalue="|zh-Hans|zh-Hant|en|ja|ko-KR|ru|fr|de" repeat="0"/>
+          </group>
+          <element  name="机构简介" label="组织机构作者简介" xname="orgdiv" xpath="/book/info/authorgroup/editor" ntype="0" ctype="EXMUL" cvalue="" repeat="0"/>
+        </group>
+      </group>
+      <group name="其他编者" label="其他编者信息" xname="othercredit" xpath="/book/info/authorgroup" ntype="0" ctype="STATIC" cvalue="" repeat="1">
+        <element  name="责任" label="责任方式信息" xname="role" xpath="/book/info/authorgroup/othercredit" ntype="1" ctype="COMBOBOX" cvalue="|著|编著|合著|编|主编|合编|改编|汇编|主审|审校|校译|译|编译|原著|笺注|注|校注|点校|今译|编译|合译|编制|责任编辑|校对|印制|顾问|封面设计|内插图责任者" repeat="0"/>
+        <group name="个人信息" label="编者个人信息" xname="" xpath="" ntype="0" ctype="STATIC" cvalue="" repeat="0">
+          <group name="姓名" label="编者个人姓名" xname="personname" xpath="/book/info/authorgroup/othercredit" ntype="0" ctype="EDIT" cvalue="" repeat="0">
+            <element  name="语种" label="语种(zh-Hans - 中文(简体)，zh-Hant - 中文(繁体)，en - 英语， ja - 日语，ko-KR - 朝鲜语(韩国)，ru - 俄语，fr - 法语，de - 德语)" xname="role" xpath="/book/info/authorgroup/othercredit/personname" ntype="1" ctype="COMBOBOX" cvalue="|zh-Hans|zh-Hant|en|ja|ko-KR|ru|fr|de" repeat="0"/>
+          </group>
+          <element  name="个人简介" label="编者个人简介" xname="personblurb" xpath="/book/info/authorgroup/othercredit" ntype="0" ctype="EXMUL" cvalue="" repeat="0"/>
+        </group>
+        <group name="机构信息" label="机构作者信息" xname="" xpath="" ntype="0" ctype="STATIC" cvalue="" repeat="0">
+          <group name="组织机构名" label="组织机构作者姓名" xname="orgname" xpath="/book/info/authorgroup/othercredit" ntype="0" ctype="EDIT" cvalue="" repeat="0">
+            <element  name="语种" label="语种(zh-Hans - 中文(简体)，zh-Hant - 中文(繁体)，en - 英语， ja - 日语，ko-KR - 朝鲜语(韩国)，ru - 俄语，fr - 法语，de - 德语)" xname="role" xpath="/book/info/authorgroup/othercredit/orgname" ntype="1" ctype="COMBOBOX" cvalue="|zh-Hans|zh-Hant|en|ja|ko-KR|ru|fr|de" repeat="0"/>
+          </group>
+          <element  name="机构简介" label="组织机构作者简介" xname="orgdiv" xpath="/book/info/authorgroup/othercredit" ntype="0" ctype="EXMUL" cvalue="" repeat="0"/>
+        </group>
+      </group>
+    </group>
+    <element  name="ISBN" label="科技类图书书名ISBN号" xname="biblioid" xpath="/book/info" ntype="0" ctype="EDIT" cvalue="" repeat="0"><![CDATA[@ISBN]]></element>
+    <element  name="DUBN" label="科技类图书书名DUBN号" xname="DUBN" xpath="/book/info" ntype="0" ctype="EDIT" cvalue="" repeat="0"/>
+    <element  name="版权信息" label="科技类图书版权信息" xname="copyright" xpath="/book/info" ntype="0" ctype="EDIT" cvalue="" repeat="0"/>
+    <group name="关键词组" label="科技类图书关键词组信息" xname="keywordset" xpath="/book/info" ntype="0" ctype="STATIC" cvalue="" repeat="1">
+      <element  name="语种" label="语种(zh-Hans - 中文(简体)，zh-Hant - 中文(繁体)，en - 英语， ja - 日语，ko-KR - 朝鲜语(韩国)，ru - 俄语，fr - 法语，de - 德语)" xname="role" xpath="/book/info/keywordset" ntype="1" ctype="COMBOBOX" cvalue="|zh-Hans|zh-Hant|en|ja|ko-KR|ru|fr|de" repeat="0"/>
+      @KEYWORDS
+      <element  name="关键词" label="科技类图书关键词" xname="keyword" xpath="/book/info/keywordset" ntype="0" ctype="EDIT" cvalue="" repeat="1"/>     
+    </group>
+    <element  name="法律声明" label="科技类图书法律声明" xname="legalnotice" xpath="/book/info" ntype="0" ctype="EDIT" cvalue="" repeat="0"/>
+    <element  name="印刷记录" label="科技类图书印刷记录" xname="printhistory" xpath="/book/info" ntype="0" ctype="EDIT" cvalue="" repeat="0"/>
+    <element  name="出版日期" label="科技类图书出版日期" xname="pubdate" xpath="/book/info" ntype="0" ctype="EXREG" cvalue="^(?:(?!0000)[0-9]{4}-(?:(?:0[1-9]|1[0-2])-(?:0[1-9]|1[0-9]|2[0-8])|(?:0[13-9]|1[0-2])-(?:29|30)|(?:0[13578]|1[02])-31)|(?:[0-9]{2}(?:0[48]|[2468][048]|[13579][26])|(?:0[48]|[2468][048]|[13579][26])00)-02-29)$" repeat="0"><![CDATA[@ISSUEDATE]]></element>
+    <group name="出版社" label="科技类图书出版社信息" xname="publisher" xpath="/book/info" ntype="0" ctype="STATIC" cvalue="" repeat="0">
+      <element  name="单位名称" label="科技类图书出版单位名称" xname="publishername" xpath="/book/info/publisher" ntype="0" ctype="EDIT" cvalue="" repeat="0"><![CDATA[@ISSUEDEP]]></element>
+      <element  name="单位地址" label="科技类图书出版单位地址" xname="address" xpath="/book/info/publisher" ntype="0" ctype="EDIT" cvalue="" repeat="1"/>
+    </group>
+    <element  name="卷数(丛书)" label="科技类图书卷数,主要用于丛书" xname="seriesvolnums" xpath="/book/info" ntype="0" ctype="EDIT" cvalue="" repeat="0"/>
+    <element  name="卷数(文集)" label="科技类图书卷数,主要用于文集" xname="volumenum" xpath="/book/info" ntype="0" ctype="EDIT" cvalue="" repeat="0"/>
+    <element  name="精华书摘" label="精华书摘信息" xname="EssenceDigest" xpath="/book/info" ntype="0" ctype="EXMUL" cvalue="" repeat="0"/>
+    <group name="内容摘要" label="科技类图书内容摘要信息" xname="abstract" xpath="/book/info" ntype="0" ctype="EXMUL" cvalue="" repeat="1">
+      <element  name="语种" label="语种(zh-Hans - 中文(简体)，zh-Hant - 中文(繁体)，en - 英语， ja - 日语，ko-KR - 朝鲜语(韩国)，ru - 俄语，fr - 法语，de - 德语)" xname="role" xpath="/book/info/abstract" ntype="1" ctype="COMBOBOX" cvalue="|zh-Hans|zh-Hant|en|ja|ko-KR|ru|fr|de" repeat="0"/>
+    </group>
+    <group name="责任" label="科技类图书责任信息" xname="responsbility" xpath="/book/info" ntype="0" ctype="STATIC" cvalue="" repeat="0">
+      <element  name="版权开始日期" label="科技类图书版权开始日期信息" xname="CopyrightBeginDate" xpath="/book/info/responsbility" ntype="0" ctype="EXREG" cvalue="^(?:(?!0000)[0-9]{4}-(?:(?:0[1-9]|1[0-2])-(?:0[1-9]|1[0-9]|2[0-8])|(?:0[13-9]|1[0-2])-(?:29|30)|(?:0[13578]|1[02])-31)|(?:[0-9]{2}(?:0[48]|[2468][048]|[13579][26])|(?:0[48]|[2468][048]|[13579][26])00)-02-29)$" repeat="0"><![CDATA[@COPYRIGHTBEGINDATE]]></element>
+      <element  name="版权年份" label="科技类图书版权年份信息" xname="CopyrightYear" xpath="/book/info/responsbility" ntype="0" ctype="EXSIN" cvalue="" repeat="0"/>
+      <element  name="版权所有者" label="科技类图书版权所有者信息" xname="Allrightreserved" xpath="/book/info/responsbility" ntype="0" ctype="EDIT" cvalue="" repeat="0"/>
+      <element  name="登记日期" label="科技类图书登记日期信息" xname="RegistrationDate" xpath="/book/info/responsbility" ntype="0" ctype="EXREG" cvalue="^(?:(?!0000)[0-9]{4}-(?:(?:0[1-9]|1[0-2])-(?:0[1-9]|1[0-9]|2[0-8])|(?:0[13-9]|1[0-2])-(?:29|30)|(?:0[13578]|1[02])-31)|(?:[0-9]{2}(?:0[48]|[2468][048]|[13579][26])|(?:0[48]|[2468][048]|[13579][26])00)-02-29)$" repeat="0"><![CDATA[@REGISTRATIONDATE]]></element>
+    </group>
+    <group name="丛/套书信息" label="科技类图书丛/套书信息信息" xname="series" xpath="/book/info" ntype="0" ctype="STATIC" cvalue="" repeat="0">
+      <element  name="书名" label="科技类图书丛/套书名信息" xname="SeriesName" xpath="/book/info/series" ntype="0" ctype="EDIT" cvalue="" repeat="0"/>
+      <element  name="英文书名" label="科技类图书丛/套书英文名信息" xname="SeriesEName" xpath="/book/info/series" ntype="0" ctype="EDIT" cvalue="" repeat="0"/>
+      <element  name="作者" label="科技类图书丛/套书作者信息" xname="SeriesAuthor" xpath="/book/info/series" ntype="0" ctype="EDIT" cvalue="" repeat="0"/>
+      <element  name="责任方式" label="科技类图书丛/套书责任方式信息" xname="SeriesLiableForm" xpath="/book/info/series" ntype="0" ctype="COMBOBOX" cvalue="|著|编著|合著|编|主编|合编|改编|汇编|主审|审校|校译|译|编译|原著|笺注|注|校注|点校|今译|编译|合译|编制|责任编辑|校对|印制|顾问|封面设计|内插图责任者" repeat="0"/>
+      <element  name="书号" label="科技类图书套书书号信息" xname="SeriesBookNo" xpath="/book/info/series" ntype="0" ctype="EDIT" cvalue="" repeat="0"/>
+      <element  name="价格" label="科技类图书丛/套书价格信息" xname="SeriesPrice" xpath="/book/info/series" ntype="0" ctype="EDIT" cvalue="" repeat="0"/>
+      <element  name="简介" label="科技类图书丛/套书简介信息" xname="SeriesSynopsis" xpath="/book/info/series" ntype="0" ctype="EXMUL" cvalue="" repeat="0"/>
+      <element  name="附注" label="科技类图书丛/套书附注信息" xname="SeriesAnnotation" xpath="/book/info/series" ntype="0" ctype="EDIT" cvalue="" repeat="0"/>
+      <element  name="结束出版日期" label="科技类图书丛/套书结束出版日期信息" xname="SeriesEndIssueDate" xpath="/book/info/series" ntype="0" ctype="EXREG" cvalue="^(?:(?!0000)[0-9]{4}-(?:(?:0[1-9]|1[0-2])-(?:0[1-9]|1[0-9]|2[0-8])|(?:0[13-9]|1[0-2])-(?:29|30)|(?:0[13578]|1[02])-31)|(?:[0-9]{2}(?:0[48]|[2468][048]|[13579][26])|(?:0[48]|[2468][048]|[13579][26])00)-02-29)$" repeat="0"/>
+      <element  name="已全部出版" label="科技类图书丛/套书是否已全部出版信息" xname="SeriesIsIssue" xpath="/book/info/series" ntype="0" ctype="COMBOBOX" cvalue="|是|否" repeat="0"/>
+      <element  name="总卷数" label="科技类图书丛/套书总卷数信息" xname="TotalVolume" xpath="/book/info/series" ntype="0" ctype="EDIT" cvalue="" repeat="0"/>
+      <element  name="总册数" label="科技类图书丛/套书总册数信息" xname="TotalBook" xpath="/book/info/series" ntype="0" ctype="EDIT" cvalue="" repeat="0"/>
+      <element  name="总字数" label="科技类图书丛/套书总字数信息" xname="TotalCharactor" xpath="/book/info/series" ntype="0" ctype="EDIT" cvalue="" repeat="0"/>
+      <element  name="总印张" label="科技类图书丛/套书总印张信息" xname="TotalPrinting" xpath="/book/info/series" ntype="0" ctype="EDIT" cvalue="" repeat="0"/>
+    </group>
+    <group name="其他信息" label="科技类图书其他信息" xname="other" xpath="/book/info" ntype="0" ctype="STATIC" cvalue="" repeat="0">
+      <element  name="开本" label="科技类图书开本信息" xname="Format" xpath="/book/info/other" ntype="0" ctype="EDIT" cvalue="" repeat="0"><![CDATA[@FORMAT]]></element>
+      <element  name="字数" label="科技类图书字数信息" xname="CharCount" xpath="/book/info/other" ntype="0" ctype="EDIT" cvalue="" repeat="0"><![CDATA[@CHARCOUNT]]></element>
+      <element  name="印张" label="科技类图书印张信息" xname="Sheets" xpath="/book/info/other" ntype="0" ctype="EDIT" cvalue="" repeat="0"><![CDATA[@SHEETS]]></element>
+      <element  name="印数" label="科技类图书印数信息" xname="Printing" xpath="/book/info/other" ntype="0" ctype="EDIT" cvalue="" repeat="0"><![CDATA[@PRINTING]]></element>
+      <element  name="最大页码" label="科技类图书最大页码信息" xname="MaxPageNO" xpath="/book/info/other" ntype="0" ctype="EDIT" cvalue="" repeat="0"/>
+      <element  name="PDF总页数" label="科技类图书PDF总页数信息" xname="PdfTotalCount" xpath="/book/info/other" ntype="0" ctype="EDIT" cvalue="" repeat="0"/>
+      <element  name="装帧形式" label="科技类图书装帧形式信息" xname="BindingFormat" xpath="/book/info/other" ntype="0" ctype="EDIT" cvalue="" repeat="0"><![CDATA[@BINDINGFORMAT]]></element>
+      <element  name="纸书定价" label="科技类图书纸书定价信息" xname="Price" xpath="/book/info/other" ntype="0" ctype="EDIT" cvalue="" repeat="0"><![CDATA[@PRICE]]></element>
+    </group>
+    <element  name="首版时间" label="图书首版时间信息" xname="FirstIssueDate" xpath="/book/info" ntype="0" ctype="EXREG" cvalue="^(?:(?!0000)[0-9]{4}-(?:(?:0[1-9]|1[0-2])-(?:0[1-9]|1[0-9]|2[0-8])|(?:0[13-9]|1[0-2])-(?:29|30)|(?:0[13578]|1[02])-31)|(?:[0-9]{2}(?:0[48]|[2468][048]|[13579][26])|(?:0[48]|[2468][048]|[13579][26])00)-02-29)$" repeat="0"><![CDATA[@FIRSTISSUEDATE]]></element>
+    <element  name="本版版次印次" label="图书本版版次印次信息" xname="PrintNUM" xpath="/book/info" ntype="0" ctype="EDIT" cvalue="" repeat="0"/>
+    <element name="基金项目" label="图书基金项目信息（用半角分号隔开）" xname="fund" xpath="/book/info" ntype="0" ctype="EDIT" cvalue="" repeat="0"/>
+  </group>
+  <group name="参考书目组" label="参考书目组信息" xname="biblioentry" xpath="/book/bibliography" ntype="0" ctype="STATIC" cvalue="" repeat="0">
+    <group name="参考书目" label="参考书目信息" xname="biblioset" xpath="/book/bibliography/biblioentry" ntype="0" ctype="STATIC" cvalue="" repeat="1">
+      <element  name="标题" label="书目标题信息" xname="title" xpath="/book/bibliography/biblioentry/biblioset" ntype="0" ctype="EDIT" cvalue="" repeat="0"/>
+      <group name="作者" label="书目作者信息" xname="author" xpath="/book/bibliography/biblioentry/biblioset" ntype="0" ctype="STATIC" cvalue="" repeat="0">
+        <element name="姓名" label="书目作者姓名信息" xname="personname" xpath="/book/bibliography/biblioentry/biblioset/author" ntype="0" ctype="EDIT" cvalue="" repeat="0"/>
+      </group>    
+      <element name="全部内容" label="参考书目全部信息" xname="allinfoStr" xpath="/book/bibliography/biblioentry/biblioset" ntype="0" ctype="EDIT" cvalue="" repeat="0"/>
+    </group>
+  </group>
+  <group name="前辅文组信息" label="科技类图书前辅文信息" xname="" xpath="/book" ntype="0" ctype="STATIC" cvalue="" repeat="1">
+    <group name="前辅文" label="科技类图书前辅文信息" xname="formerAidText" xpath="/book" ntype="0" ctype="STATIC" cvalue="" repeat="0">
+      <element  name="类型" label="前辅文类型(题词页、编委会（可能有多个，包括：丛书编委会、本书编委会、第一版编委会、第二版编委会等）、致谢、前言（包括译者的话等）、序（可能有多个序，包括：序言、代序、译序、序一、序二等）、出版说明（可能有多个，包括再版说明、修订说明等）、编写说明（编撰说明、几点说明等）、凡例、标准公告、编者按、人物介绍、导读、后记、跋、编后、勘误表)" xname="type" xpath="/book/formerAidText" ntype="1" ctype="COMBOBOX" cvalue="|题词页|编委会|致谢|前言|序|出版说明|编写说明|凡例|标准公告|编者按|人物介绍|导读|后记|跋|编后|勘误表" repeat="0"/>
+      <element  name="标题" label="标题信息" xname="title" xpath="/book/formerAidText" ntype="0" ctype="EDIT" cvalue="" repeat="1"/>
+      <element name="正文" label="前辅文内容" xname="" xpath="/book/formerAidText" ntype="0" ctype="EXMUL" cvalue="" repeat="0"/>
+    </group>
+  </group>
+  <group name="后辅文组信息" label="科技类图书后辅文信息" xname="" xpath="/book" ntype="0" ctype="STATIC" cvalue="" repeat="1">
+    <group name="后辅文" label="科技类图书后辅文信息" xname="backAidText" xpath="/book" ntype="0" ctype="STATIC" cvalue="" repeat="0">
+      <element  name="类型" label="后辅文类型(题词页、编委会（可能有多个，包括：丛书编委会、本书编委会、第一版编委会、第二版编委会等）、致谢、前言（包括译者的话等）、序（可能有多个序，包括：序言、代序、译序、序一、序二等）、出版说明（可能有多个，包括再版说明、修订说明等）、编写说明（编撰说明、几点说明等）、凡例、标准公告、编者按、人物介绍、导读、后记、跋、编后、勘误表)" xname="type" xpath="/book/backAidText" ntype="1" ctype="COMBOBOX" cvalue="|题词页|编委会|致谢|前言|序|出版说明|编写说明|凡例|标准公告|编者按|人物介绍|导读|后记|跋|编后|勘误表" repeat="0"/>
+      <element  name="标题" label="标题信息" xname="title" xpath="/book/backAidText" ntype="0" ctype="EDIT" cvalue="" repeat="1"/>
+       <element name="正文" label="后辅文内容" xname="" xpath="/book/backAidText" ntype="0" ctype="EXMUL" cvalue="" repeat="0"/>
+    </group>
+  </group>
+</template>

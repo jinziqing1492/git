@@ -1,0 +1,93 @@
+﻿body {
+}
+.searmod {
+  overflow:hidden;
+  width: 695px;
+  font: 12px/20px tahoma, arial, 宋体, sans-serif;
+}
+.searmod dl {  
+  overflow: hidden;
+  padding: 15px;
+  width: 725px;
+  margin-left:-6px;
+}
+.searmod dl dt {
+  border: 1px solid #D3D3D3;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  padding: 3px;
+  position: relative;
+  width: 130px;
+}
+
+.searmod dl dt .play_img {
+  cursor: pointer;
+  height: 28px;
+  left: 50px;
+  position: absolute;
+  top: 35px;
+  width: 28px;
+}
+.searmod dl dt.noplay 
+{
+   height:100px;
+}
+.searmod dl dt.noplay img
+{
+    border-width:0;
+}
+.searmod dl dt.noplay .play_img {
+  display: block;  
+  left:55px;
+}
+.searmod dl dt.noplay a img.detail_img   
+{    
+    border:solid 1px #FFFFFF;
+    width:130px;
+    height:97px;     
+}
+.searmod dl dd {  
+  float: right;
+  height: 25px;
+  line-height: 25px;
+  overflow: hidden;
+  text-align: left;
+  width: 560px;
+}
+.searmod dl dd.spe1 {
+    
+    border-bottom: 1px solid #B2D6E2;
+    font-size: 14px;
+    font-weight:bold;
+    padding-left: 10px;
+    height: 25px;
+    line-height: 25px;
+    width: 550px;
+    margin-bottom:5px;
+}
+.searmod dl dd a {
+  text-decoration: underline;
+}
+.searmod dl dd.spe1 a,.searmod dl dd.spe2 a {
+  color: #02499B;
+  text-decoration: none;
+}
+
+.searmod dl dd.spe1 a:hover,.searmod dl dd.spe2 a:hover {
+  color: #E7370C;
+  text-decoration:underline;
+}
+.searmod dl dd.spe2{
+  color: #9C9C9C;
+  font-weight:normal;
+}
+.searmod dl dd.spe2 strong{
+  color: #333333;
+  font-weight:normal;
+}
+
+.searmod dl dd.spe2 em {
+  color: #D6D6D6;
+  padding: 0 17px;
+}

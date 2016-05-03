@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <!--加密类型0服务器1是证书-->
+  <Type>0</Type>
+  <!--是否启用时间限制0否1是启用-->
+  <TimeLimit>1</TimeLimit>
+  <TimeUnit>m</TimeUnit>
+  <TimeLength>12</TimeLength>
+  <!--是否启用复制限制0否1是启用-->
+  <CopyLimit>1</CopyLimit>
+  <!--是否启用复制字数限制0否1是启用-->
+  <CopyTextLimit>1</CopyTextLimit>
+  <CopyCharLimit>1</CopyCharLimit>
+  <!--复制字数-->
+  <CopyCharCount>10</CopyCharCount>
+  <!--是否启用打印限制0否1是启用-->
+  <PrintLimit>1</PrintLimit>
+  <!--最大终端数-->
+  <TerminalCount>3</TerminalCount>
+</config>

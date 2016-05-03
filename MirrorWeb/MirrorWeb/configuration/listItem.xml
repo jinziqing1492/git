@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<listitem>
+  <restype>
+    <item value="" name="全部"></item>
+    <item value="0" name="当当"></item>
+    <item value="1" name="京东"></item>
+    <item value="2" name="亚马逊"></item>
+  </restype>
+  <usertype>
+    <item value="0" name="文档"></item>
+    <item value="1" name="图片"></item>
+    <item value="2" name="视频"></item>
+    <item value="3" name="音频"></item>
+    <item value="4" name="程序"></item>
+    <item value="5" name="flash"></item>
+    <item value="6" name="压缩包"></item>
+    <item value="7" name="ISO"></item>
+    <item value="8" name="其他"></item>
+  </usertype>
+  <journaltype>
+    <item value="0" name="周刊"></item>
+    <item value="1" name="旬刊"></item>
+    <item value="2" name="半月刊"></item>
+    <item value="3" name="月刊"></item>
+    <item value="4" name="双月刊"></item>
+    <item value="5" name="季刊"></item>
+    <item value="6" name="半年刊"></item>
+    <item value="7" name="年刊"></item>
+  </journaltype>
+  <newstype>
+    <item value="0" name="周报"></item>
+    <item value="1" name="周一报"></item>
+    <item value="2" name="周二报"></item>
+    <item value="3" name="周三报"></item>
+    <item value="4" name="周四报"></item>
+    <item value="5" name="周五报"></item>
+  </newstype>
+  <magtype>
+    <item value="0" name="周刊"></item>
+    <item value="1" name="旬刊"></item>
+    <item value="2" name="半月刊"></item>
+    <item value="3" name="月刊"></item>
+    <item value="4" name="双月刊"></item>
+    <item value="5" name="季刊"></item>
+    <item value="6" name="半年刊"></item>
+    <item value="7" name="年刊"></item>
+  </magtype>
+  <stdtype>
+    <item value="GB" name="GB"></item>
+    <item value="GJB" name="GJB"></item>
+    <item value="HB" name="HB"></item>
+    <item value="SL" name="SL"></item>
+    <item value="SL/T" name="SL/T"></item>
+    <item value="SL/Z" name="SL/Z"></item>
+  </stdtype>
+  <videotype>
+    <item value="0" name="标清"></item>
+    <item value="1" name="低清"></item>
+    <item value="2" name="高清"></item>
+  </videotype>
+  <videoformat>
+    <item value="0" name="MP4"></item>
+    <item value="1" name="FLV"></item>
+  </videoformat>
+  <pictype>
+    <item value="0" name="本身资源图片"></item>
+    <item value="1" name="公式"></item>
+    <item value="2" name="图表"></item>
+    <item value="3" name="资源里的插图"></item>
+    <item value="4" name="符号类型"></item>
+    <item value="5" name="行内图"></item>
+  </pictype>
+  <picprecision>
+    <item value="0" name="普通"></item>
+    <item value="1" name="低质量"></item>
+    <item value="2" name="高质量"></item>
+  </picprecision>
+</listitem>

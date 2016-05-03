@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{122A7B37-F2D4-4CAC-A807-E267A5B29081}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DRMS.Model</RootNamespace>
+    <AssemblyName>DRMS.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseModel.cs" />
+    <Compile Include="BookInfo.cs" />
+    <Compile Include="ControlCssInfo.cs" />
+    <Compile Include="DepartmentDatabaseInfo.cs" />
+    <Compile Include="DepartmentInfo.cs" />
+    <Compile Include="DownLoadApplyInfo.cs" />
+    <Compile Include="DrmRightModelInfo.cs" />
+    <Compile Include="ErpEntryInfo.cs" />
+    <Compile Include="ExportTaskInfo.cs" />
+    <Compile Include="ExportTaskListInfo.cs" />
+    <Compile Include="FavoriteDataInfo.cs" />
+    <Compile Include="HotstarSysFieldInfo.cs" />
+    <Compile Include="IPScopeInfo.cs" />
+    <Compile Include="MissionInfo.cs" />
+    <Compile Include="OriginalDataClassInfo.cs" />
+    <Compile Include="EnumInfo.cs" />
+    <Compile Include="OriginalDataInfo.cs" />
+    <Compile Include="OwnerResourceTypeInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResourceDataInfo.cs" />
+    <Compile Include="ResourceTypeInfo.cs" />
+    <Compile Include="SubscribeInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToolBookInfo.cs" />
+    <Compile Include="TerminologyInfo.cs" />
+    <Compile Include="SubterminologyInfo.cs" />
+    <Compile Include="ChapterInfo.cs" />
+    <Compile Include="JournalInfo.cs" />
+    <Compile Include="JournalYearInfo.cs" />
+    <Compile Include="JournalArticleInfo.cs" />
+    <Compile Include="ThesisInfo.cs" />
+    <Compile Include="ConferencePaperInfo.cs" />
+    <Compile Include="ConferenceArticleInfo.cs" />
+    <Compile Include="StddataInfo.cs" />
+    <Compile Include="MagazineInfo.cs" />
+    <Compile Include="MagazineYearInfo.cs" />
+    <Compile Include="MagazineArticleInfo.cs" />
+    <Compile Include="NewsPaperInfo.cs" />
+    <Compile Include="NewsPaperYearInfo.cs" />
+    <Compile Include="NewsPaperArticleInfo.cs" />
+    <Compile Include="TreeNodeInfo.cs" />
+    <Compile Include="UEBookListInfo.cs" />
+    <Compile Include="YearBookYearInfo.cs" />
+    <Compile Include="YearBookArticleInfo.cs" />
+    <Compile Include="VideoInfo.cs" />
+    <Compile Include="AudioInfo.cs" />
+    <Compile Include="PicInfo.cs" />
+    <Compile Include="AttachmentInfo.cs" />
+    <Compile Include="ContractInfo.cs" />
+    <Compile Include="AuthorInfo.cs" />
+    <Compile Include="OrgInfo.cs" />
+    <Compile Include="ThemeInfo.cs" />
+    <Compile Include="ConfigInfo.cs" />
+    <Compile Include="DataBaseListInfo.cs" />
+    <Compile Include="UserInfo.cs" />
+    <Compile Include="LogInfo.cs" />
+    <Compile Include="LogicalDataBaseInfo.cs" />
+    <Compile Include="UserLDBInfo.cs" />
+    <Compile Include="UEBookInfo.cs" />
+    <Compile Include="ZTFlfClsInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

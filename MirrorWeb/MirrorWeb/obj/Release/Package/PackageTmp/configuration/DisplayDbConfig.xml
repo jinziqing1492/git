@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DbList>
+  <!--数据管理员的数据导航,收集的类型-->
+  <BaseDbList>
+    <item dtype="16" dname="条目库" rescode="book_chapter"  />
+    <item dtype="1" dname="图书库"  rescode="book" aid="MgrBook" />
+    <item dtype="4" dname="期刊库"  rescode="journal" aid="MgrJournal" />
+    <item dtype="18" dname="文章库" rescode="journal_article"  />
+    <item dtype="22" dname="手册词条库" rescode="entry"  />
+    <item dtype="60" dname="英文资源库" rescode="english" aid="Mgrenglish" />
+    <item dtype="70" dname="英文资源文章库" rescode="english_article" aid="Mgrenglish" />
+    <item dtype="64" dname="泛华资源库" rescode="owner" aid="MgrOwner"/>
+    <!--<item dtype="9" dname="论文库"  rescode="thesis" aid="MgrThesis" />
+    <item dtype="5" dname="论文集库" rescode="conference" aid="MgrConfPaper" />
+    <item dtype="3" dname="工具书库" rescode="toolbook" aid="MgrToolBook" />
+    <item dtype="2" dname="标准库" rescode="std" aid="MgrStd" />
+    <item dtype="6" dname="年鉴库" rescode="year" aid="MgrYearBook" />
+    <item dtype="8" dname="报纸库" rescode="newspaper" aid="MgrNewspaper" />
+    <item dtype="7" dname="杂志库" rescode="magaz" aid="MgrMagazine" />
+    <item dtype="12" dname="图片库" rescode="pic" aid="MgrPic" />
+    <item dtype="11" dname="音频库" rescode="audio" aid="Mgraudio" />
+    <item dtype="10" dname="视频库" rescode="video" aid="Mgrvideo" />-->
+  </BaseDbList>
+  <!--首页的数据导航-->
+  <BaseDbMList>
+    <item dtype="16" dname="条目库" rescode="book_chapter"  />
+    <item dtype="1" dname="图书库"  rescode="book" aid="MgrBook" />
+    <item dtype="4" dname="期刊库"  rescode="journal" aid="MgrJournal" />
+    <item dtype="18" dname="文章库" rescode="journal_article"  />
+    <item dtype="22" dname="手册词条库" rescode="entry"  />
+    <item dtype="60" dname="英文资源库" rescode="english" aid="Mgrenglish" />
+    <item dtype="70" dname="英文资源文章库" rescode="english_article" aid="Mgrenglish" />
+    <item dtype="64" dname="泛华资源库" rescode="owner" aid="MgrOwner"/>
+    <!--<item dtype="9" dname="论文库"  rescode="thesis" aid="MgrThesis" />
+    <item dtype="5" dname="论文集库" rescode="conference" aid="MgrConfPaper" />
+    <item dtype="3" dname="工具书库" rescode="toolbook" aid="MgrToolBook" />
+    <item dtype="2" dname="标准库" rescode="std" aid="MgrStd" />
+    <item dtype="6" dname="年鉴库" rescode="year" aid="MgrYearBook" />
+    <item dtype="8" dname="报纸库" rescode="newspaper" aid="MgrNewspaper" />
+    <item dtype="7" dname="杂志库" rescode="magaz" aid="MgrMagazine" />
+    <item dtype="12" dname="图片库" rescode="pic" aid="MgrPic" />
+    <item dtype="11" dname="音频库" rescode="audio" aid="Mgraudio" />
+    <item dtype="10" dname="视频库" rescode="video" aid="Mgrvideo" />-->
+  </BaseDbMList>
+  <!--数据库的数据导航-->
+  <BaseDbViewList>
+    <item dtype="16" dname="条目库" rescode="book_chapter"  />
+    <item dtype="1" dname="图书库"  rescode="book" aid="MgrBook" />
+    <item dtype="4" dname="期刊库"  rescode="journal" aid="MgrJournal" />
+    <item dtype="18" dname="文章库" rescode="journal_article"  />
+    <item dtype="12" dname="图片库" rescode="pic" aid="MgrPic" />
+    <item dtype="22" dname="手册词条库" rescode="entry"  />
+    <item dtype="60" dname="英文资源库" rescode="english" aid="Mgrenglish" />
+    <item dtype="70" dname="英文资源文章库" rescode="english_article" aid="Mgrenglish" />
+    <item dtype="64" dname="泛华资源库" rescode="owner" aid="MgrOwner"/>
+    <!--<item dtype="9" dname="论文库"  rescode="thesis" aid="MgrThesis" />
+    <item dtype="5" dname="论文集库" rescode="conference" aid="MgrConfPaper" />
+    <item dtype="3" dname="工具书库" rescode="toolbook" aid="MgrToolBook" />
+    <item dtype="2" dname="标准库" rescode="std" aid="MgrStd" />
+    <item dtype="6" dname="年鉴库" rescode="year" aid="MgrYearBook" />
+    <item dtype="8" dname="报纸库" rescode="newspaper" aid="MgrNewspaper" />
+    <item dtype="7" dname="杂志库" rescode="magaz" aid="MgrMagazine" />
+    <item dtype="11" dname="音频库" rescode="audio" aid="Mgraudio" />
+    <item dtype="10" dname="视频库" rescode="video" aid="Mgrvideo" />
+    <item dtype="22" dname="词条" rescode="entry"  />
+    <item dtype="19" dname="论文集文章" rescode="conference_article"  />-->
+  </BaseDbViewList>
+</DbList>

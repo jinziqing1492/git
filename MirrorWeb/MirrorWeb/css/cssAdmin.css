@@ -1,0 +1,210 @@
+﻿body
+{
+    line-height: 1;
+}
+#place-holder
+{
+    min-height: 500px;
+}
+.hide, .none, .nodisplay{display:none;}
+.position-left{float:left;}
+.position-right{float:right;}
+.align-left{text-align:left;}
+.align-center{text-align:center;}
+.align-right{text-align:right;}
+.position
+{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 25px; /*border-bottom: 2px solid #63ACEF;*/
+    border-bottom: solid 1px #cccccc;
+    color: #6a6a6a;
+    background: url("../images/63.png") no-repeat scroll 5px 50% transparent;
+    margin-bottom: 10px;
+}
+.position a:hover
+{
+    color: #63ACEF;
+}
+.position span
+{
+    float: left;
+}
+.position .nav-date
+{
+    float: right;
+    padding-right: 10px;
+    color: #6a6a6a;
+}
+.position span.ln
+{
+    float:none;
+    margin:0 8px 0 3px;
+}
+.position span.main-path, .position span.sub-path
+{
+    margin:0 8px;
+}
+.position span.main-path
+{
+    color: #57A000;
+}
+.position span.sub-path
+{
+    color: #63ACEF;
+}
+#welcome
+{
+    font-family: 微软雅黑;
+    color: #5c5c5c;
+}
+.form-container
+{
+    line-height: 1.6em;
+}
+.form-container dt
+{
+    clear: both;
+    float: left;
+    padding: 5px 4px 10px 4px;
+    text-align: right;
+    width: 120px;
+}
+.form-container dd
+{
+    margin: 0 0 0 128px;
+    padding: 5px 4px 10px 4px;
+    text-align: left;    
+}
+.form-container p.submit, .submit-result
+{
+    text-align: center;
+}
+.form-container p.submit input.button
+{
+    margin: 0 80px;
+    height: 27px;
+}
+#main-content .form-container table.radio-button-list
+{
+    border-collapse:separate;
+    padding:5px;
+}
+#main-content .form-container table.radio-button-list tbody tr td
+{
+    padding: 0;    
+}
+#main-content .form-container table.radio-button-list tbody tr td label
+{
+    display: inline;
+    line-height: 1.6em;
+    padding: 0;
+    font-weight: normal;
+    padding-left: 5px;
+    padding-right:5px;
+}
+#main-content .form-container table.radio-button-list tbody tr.alt-row
+{
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.form-container span.radio-button
+{
+    padding-bottom:10px;
+}
+.form-container span.radio-button label
+{
+    display: inline;
+    line-height: 1.6em;
+    padding: 0;
+    font-weight: normal;
+}
+.form-container span.radio-box
+{
+    display: inline;
+    margin-right:5px;
+}
+.form-container .checkBox
+{
+    height:21px;
+    padding:5px 0;
+    display:block;
+}
+.form-container .checkBox input
+{
+    margin:4px;
+    float:left;
+    display:inline;    
+}
+.form-container .checkBox label
+{    
+    height:21px;
+    line-height: 21px;
+    font-weight: normal;
+    padding:0;
+    float:left;
+}
+.shortcut-button{width:104px;}
+.shortcut-button span img
+{
+    width:32px;
+    height:32px;
+}
+.pagination .aspNetPager input.jump-input
+{
+    margin-right:5px;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 4px 4px 4px; 
+    height:16px;      
+}
+.pagination .aspNetPager input.jump-button
+{
+    border-radius: 4px 4px 4px 4px;
+    border: 1px solid #DDDDDD;
+    color: #57A000;
+    text-decoration: none;
+    cursor:pointer;
+    margin: 0;
+    padding: 3px 6px;
+    font-size:10px;
+    background:none;
+}
+.pagination .aspNetPager input.jump-button:hover
+{
+    color:#2b2b2b;
+}
+.content-box-content{min-height:410px;}
+#record-filter{float:right;}
+.dialogContainer{margin:13px 0;}
+.dialogContainer input.text-input, .dialogContainer select, .dialogContainer textarea{
+  background: url("../images/bg-form-field.gif") repeat-x scroll left top #FFFFFF;
+  border: 1px solid #D5D5D5;
+  color: #333333;
+  font-size: 13px;
+  padding: 6px;
+  border-radius: 4px 4px 4px 4px;
+}
+.dialogContainer .medium-input {
+  width: 50% !important;
+}
+.dialogContainer .long-input {
+  width: 80% !important;
+}
+.dialogContainer .large-input
+{
+    width: 97.5% !important;
+    font-size: 16px !important;
+    padding: 8px !important;
+}
+#service-content-item .flexigrid, #service-content-mag .flexigrid
+{
+    width:100% !important;
+}
+.form-container .flexigrid{line-height:1em;}
+div.pGroup{display:inline;}
+div.pGroup div{padding-top 1px; padding-bottom:1px;}
+.flexigrid div.pDiv .pcontrol input, .flexigrid .pGroup select{padding:2px;}
+.flexigrid div.sDiv .sDiv2 select{padding:0;}
+#service-content-item, #service-content-mag
+{
+    width:55%;
+}

@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7A4C2C5D-BACD-41C3-8FBD-C91D1AD1CE34}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DRMS.IDAL</RootNamespace>
+    <AssemblyName>DRMS.IDAL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IAttachment.cs" />
+    <Compile Include="IAudio.cs" />
+    <Compile Include="IAuthor.cs" />
+    <Compile Include="IBook.cs" />
+    <Compile Include="IChapter.cs" />
+    <Compile Include="IConferenceArticle.cs" />
+    <Compile Include="IConferencePaper.cs" />
+    <Compile Include="IConfig.cs" />
+    <Compile Include="IContract.cs" />
+    <Compile Include="IControlCss.cs" />
+    <Compile Include="IDataBaseList.cs" />
+    <Compile Include="IDepartment.cs" />
+    <Compile Include="IDownLoadApply.cs" />
+    <Compile Include="IExportTask.cs" />
+    <Compile Include="IExportTaskList.cs" />
+    <Compile Include="IFavoriteData.cs" />
+    <Compile Include="IHotstarSysField.cs" />
+    <Compile Include="IJournalArticle.cs" />
+    <Compile Include="IJournalInfo.cs" />
+    <Compile Include="IJournalYearInfo.cs" />
+    <Compile Include="ILog.cs" />
+    <Compile Include="ILogicalDataBase.cs" />
+    <Compile Include="IMagazineArticle .cs" />
+    <Compile Include="IMagazineInfo.cs" />
+    <Compile Include="IMagazineYearInfo.cs" />
+    <Compile Include="IMission.cs" />
+    <Compile Include="INewsPaperArticle.cs" />
+    <Compile Include="INewsPaperInfo.cs" />
+    <Compile Include="INewsPaperYearInfo.cs" />
+    <Compile Include="IOriginalData.cs" />
+    <Compile Include="IOriginalDataClass.cs" />
+    <Compile Include="IOwnerResourceType.cs" />
+    <Compile Include="IResourceData.cs" />
+    <Compile Include="IResourceType.cs" />
+    <Compile Include="ISubscribe.cs" />
+    <Compile Include="IUEBook.cs" />
+    <Compile Include="IUEBookList.cs" />
+    <Compile Include="IUserLDB.cs" />
+    <Compile Include="IOrg.cs" />
+    <Compile Include="IPic.cs" />
+    <Compile Include="IStdData.cs" />
+    <Compile Include="ISubTerminology.cs" />
+    <Compile Include="ITerminology.cs" />
+    <Compile Include="ITheme.cs" />
+    <Compile Include="IThesis.cs" />
+    <Compile Include="IToolBook.cs" />
+    <Compile Include="IUser.cs" />
+    <Compile Include="IVideo.cs" />
+    <Compile Include="IYearBookArticle.cs" />
+    <Compile Include="IYearBookYearInfo.cs" />
+    <Compile Include="IZTFlfCls.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{122A7B37-F2D4-4CAC-A807-E267A5B29081}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

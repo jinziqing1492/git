@@ -1,0 +1,151 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*index_待完成的任务*/
+.TYtaskDo-title{ background:url(../images/TYtaskDo-title.png) no-repeat; padding-left:40px; line-height:45px;color:#356d29; font-size:16px;}
+.TYtaskDo-title span{ font-size:12px; font-weight:normal; color:#646464;}
+.TYtaskDo-title span em{color:#dc585e;}
+.TaskOne ul{overflow:hidden;}
+.TaskOne ul li{ float:left;position:relative; border:1px solid #cbcaca; background:#fff; padding:5px 8px; text-align:center; width:100px; margin-right:26px;_margin-right:18px; height:110px; cursor:pointer; margin-top:15px;}
+.TaskOne ul li p{line-height:24px;}
+.TaskNum{position:absolute; background:#e1777c;padding:0 5px; right:-10px; display:inline-block;top:-10px; color:#fff;}
+/*index_数据库*/
+.TYdata_base{border:1px solid #d1d1d1; background:#fff;}
+.TYDataBase_Title{ background:url(../images/TYDataBase_Title.png) repeat-x; height:45px; padding-left:8px;}
+.TYDataBase_Title h2{ background:url(../images/TYicon2.png) no-repeat left center; padding-left:45px; color:#356d29; font-size:16px; line-height:45px;}
+.TYbaseDataBase{padding:15px;}
+.TYbaseDataBase_title{height:29px; background:url(../images/TYicon3.png) repeat-x  left center;}
+.TYbaseDataBase_title h4{ background:url(../images/TYbaseDatabaseBG.png) no-repeat;color:#fff; line-height:29px; text-align:center;width:90px; 
+font-size:14px;
+}
+.TYbaseMore{float:right; background:#fff;padding:0 8px;color:#000; line-height:29px;color:#18609f;}
+.TYbaseDataBase_file ul{overflow:hidden;}
+.TYbaseDataBase_file ul li{width:100px;margin-right:10px;float:left;padding:8px;margin:10px 12px 10px 0; text-align:center; cursor:pointer;}
+.TYbaseDataBase_file ul li h5{color: #063263;font-size: 14px;letter-spacing: 2px;line-height: 30px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.TYbaseDataBase_file ul li p{color:#6a6a6a;}
+.TYbaseDataBase_file ul li p em{color:#c90202;}
+
+.logicDBOpe{  height:16px; margin-top:62px; margin-left:20px; display:none; z-index:10003; position:absolute;}
+.logicDBOpe a{ margin:0px 3px;}
+div.logicDBOpe a{ clear:both; float:right; position:relative; top:-39px; letter-spacing:2px; }
+
+
+/*限制网页最小宽度*/
+.container_div_minWidth{width:100%;min-width:1000px;width:expression_r(document.body.clientWidth < 1000 ? "1000px": "auto" ); }
+.container_div_minHeight {height:100%;min-height:600px;height:expression_r(document.body.clientHeight < 600 ? "600px": "auto" );}
+/*.container_div_minHeight{height:100%;min-height:670px;height:expression_r(document.body.clientHeight < 670 ? "670px": "auto" );}*/
+
+
+/*浏览用户的检索框*/
+.bcs-radio-div
+{
+    float:left;
+    margin-right:10px;
+    }
+.bc-search {
+    background: url("../images/bcs-bg.png") repeat-x scroll 0 0 transparent;
+    font-size: 14px;
+    height: 64px;
+}
+.bcs-left {
+    background: url("../images/bcs-left.png") no-repeat scroll left center transparent;
+    height: 100%;
+}
+.bcs-right {
+    background: url("../images/bcs-right.png") no-repeat scroll right center transparent;
+    height: 100%;
+}
+.bcs-main {
+    overflow: hidden;
+    padding: 15px 0 0;
+}
+.bcs-main select {
+    float: left;
+    height: 24px;
+    margin: 0 10px 0 66px;
+    width: 100px;
+}
+.adv-search-main {
+    border: 1px dotted #DDDDDD;
+    border-radius: 3px;
+    font-size: 13px;
+    height: 130px;
+    margin: 5px auto 5px 5px;
+    padding-left: 15px;
+    width: 97%;
+}
+.adv-search-main p {
+    color: #FF0000;
+    height: 22px;
+    line-height: 22px;
+}
+.adv-search-ok {
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    width: 70%;
+    margin-left:30px;
+}
+.adv-search-ok input {
+    background-attachment: scroll;
+    background-color: #DEEDF7;
+    background-position: 50% 50%;
+    background-repeat: repeat-x;
+    border: 1px solid #AED0EA;
+    border-radius: 3px;
+    height: 25px;
+    line-height: 20px;
+    margin: 5px 25px 5px 5px;
+    vertical-align: middle;
+    width: 70px;
+}
+
+.bcs-box {
+    background: url("../images/icon-search.png") no-repeat scroll 5px 1px #FFFFFF;
+    border: 1px solid #33A7E7;
+    float: left;
+    height: 22px;
+    padding-left: 33px;
+    width: 305px;
+}
+.bcs-box input {
+    border: 0 none;
+    height: 20px;
+    line-height: 20px;
+    width: 305px;
+}
+.btn-news {
+    background: url("../images/btn-retrieval.png") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: #FFFFFF;
+    float: left;
+    font-weight: bold;
+    height: 26px;
+    line-height: 26px;
+    margin-left: 10px;
+    text-align: center;
+    width: 72px;
+}
+.btn-news:hover {
+    color: #FFFFFF;
+}
+.bc-newbook {
+    overflow: hidden;
+    padding-top: 8px;
+}
+
+
+.big-searchbox span {
+    float: left;
+    margin-top: 35px;
+}
+.big-searchbox textarea {
+    float: left;
+    height: 90px;
+    line-height: 26px;
+    margin: 5px;
+    width: 400px;
+}
+.big-searchbox input {
+    float: left;
+    margin-top: 70px;
+}

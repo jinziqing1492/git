@@ -1,0 +1,19 @@
+﻿
+2016.02.03 14:32:51
+.客户信息：
+	Ip:127.0.0.1
+	浏览器:Chrome
+	浏览器版本:38
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:7000/View/YearIssueDetail.aspx?baseid=AID&type=4
+	错误信息：未将对象引用设置到对象的实例。
+	错误源：DRMS.MirrorWeb
+	异常方法：Void BindTitleandSummaryList(System.String, System.String)
+	堆栈信息：   在 DRMS.MirrorWeb.view.YearIssueDetail.BindTitleandSummaryList(String baseId, String type) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\view\YearIssueDetail.aspx.cs:行号 104
+   在 DRMS.MirrorWeb.view.YearIssueDetail.Page_Load(Object sender, EventArgs e) 位置 d:\avic\source\镜像库\MirrorWeb\MirrorWeb\view\YearIssueDetail.aspx.cs:行号 34
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+--------------------------------------------------------------------------------------------------

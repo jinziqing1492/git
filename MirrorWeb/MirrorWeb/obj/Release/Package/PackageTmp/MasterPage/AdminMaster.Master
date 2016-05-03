@@ -1,0 +1,92 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="DRMS.MirrorWeb.MasterPage.AdminMaster" %>
+<%@ Register Src="~/AdminUserControl/NavigationView.ascx" TagName="NavigationView" TagPrefix="DRMS" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>中航传媒-产品管理系统</title>
+    <link href="../css/Reset.css" rel="Stylesheet" type="text/css" />
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="/css/admin.css" type="text/css" media="screen" />
+    <link rel="Stylesheet" href="/css/cupertino/jquery-ui-1.8.18.custom.css" type="text/css" />
+    <!-- Invalid Stylesheet. This makes stuff look pretty. Remove it if you want the CSS completely valid -->
+    <link rel="stylesheet" href="/css/invalid.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/cssAdmin.css" type="text/css" media="screen" />
+    <!--[if IE 8]>
+        <link href="/css/ie8.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <!--[if IE 7]>
+        <link href="/css/ie7.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <!--[if IE 6]>
+        <link href="/css/ie6.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <script type="text/javascript" src="/js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="/js/Util.js"></script>
+    <script type="text/javascript" src="/js/simpla.jquery.configuration.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="body-wrapper">
+        <form id="form1" runat="server">
+        <!-- Wrapper for the radial gradient background -->
+        <div id="sidebar">
+            <div id="sidebar-wrapper">
+                <!-- Sidebar with logo and menu -->
+                <h1 id="sidebar-title">
+                    <a href="#">Simpla Admin</a></h1>
+                <!-- Logo (221px wide) -->
+                <a href="../Admin/Default.aspx">
+                    <img id="logo" src="../images/logo1.png" alt="Admin logo"  width="210px"/></a>
+                <!-- Sidebar Profile links -->
+                <div id="profile-links">
+                    您好, <a href="javascript:;" title="Edit your profile"><%=UserName%></a>, 当前角色: <a href="javascript:;"
+                            rel="modal" title="">系统管理员</a><br />
+                    <br />
+                    <a href="../Index.aspx" title="View the Site">访问网站</a> | <a href="../Logout.aspx?url=admin" title="Sign Out">退出登录</a>
+                </div>
+                <DRMS:NavigationView ID="nav" runat="server" />
+            </div>
+        </div>
+        <!-- End #sidebar -->
+        <div id="main-content">
+            <!-- Main Content Section with everything -->
+            <noscript>
+                <!-- Show a notification if the user has disabled javascript -->
+                <div class="notification error png_bg">
+                    <div>
+                        您的浏览器不支持javascript或者浏览器的javascript功能已被禁用。请 <a href="http://browsehappy.com/"
+                            title="Upgrade to a better browser"> 升级 </a> 您的浏览器 或者 <a href="http://www.google.com/support/bin/answer.py?answer=23852"
+                                title="Enable Javascript in your browser">启用</a> 脚本以使系统正常工作。
+                    </div>
+                </div>
+            </noscript>
+            <!-- Page Head -->
+            <h3 id="welcome">欢迎您登录系统</h3>
+            <div class="position">
+                <span><span class="ln">当前位置</span>&gt;<span class="main-path ln">系统首页</span>&gt;<span class="sub-path ln"></span></span>
+                <span class="nav-date">今天是：2012年4月16日 星期一 </span>
+                <div class="clear"></div>
+            </div>            
+            <%--<p id="page-intro">快捷窗口</p>--%>
+            <div id="place-holder">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            </div>
+            <div class="clear"></div>
+            <div id="footer">
+                <small>
+                    <!-- Remove this notice or replace it with whatever you want -->
+                    &#169; Copyright 2002-2009  | Powered by <a href="javascript:;">同方知网(北京)技术有限公司</a> 
+                    | <a href="#">Top</a> </small>
+            </div>
+            <!-- End #footer -->
+        </div>
+        <!-- End #main-content -->
+        </form>
+    </div>
+</body>
+</html>
+

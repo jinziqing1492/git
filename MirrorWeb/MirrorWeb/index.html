@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset=utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="js/bootstrap/css/bootstrap.css">
+    <link href="css/zTreeStyle/zTreeStyle.css" rel="stylesheet" />
+    <link href="css/jquery.fullPage.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script> 
+    <script type="text/javascript" src="js/bootstrap/js/bootstrap.js"></script>
+    <script src="js/jquery.ztree.all-3.1.js"></script>
+    <script src="js/index-nav.js"></script>
+    <script src="js/jquery.fullPage.min.js"></script>
+    <style type="text/css">
+        body {background: url('images/bg2s.png');}
+        sup{ top: -1em;}
+        .fl{ float:left;}
+        .fr{ float:right;}
+        .logo{margin: 100px auto 50px auto; text-align: center;}
+        .searchcontainer{width: 520px; margin: 0px auto;}
+        .index-tab{ margin-bottom:10px;}
+        .index-tab a{ color:black; width:65px; display:inline-block;}
+        .index-nav{ position:absolute; top:0px; left:0px;}
+
+        .index-nav{ border-right:1px solid #d3c78f; overflow:auto; height:600px;}
+        .index-nav-title{padding:20px 0 8px 0px;color:#587ba3; }
+        .index-nav-title h2{font-size:19px; letter-spacing:2px; line-height:30px; text-align:center;}
+        .index-nav-title h3{font-size:14px; font-family:Arial;line-height:24px; text-align:center;}
+        .index-nav-tree ul{padding-left:20px;}
+        .index-nav-tree ul li button.level0{ display:none;}
+        .index-nav-tree ul li a.level0{padding-left:30px; display:inline-block; display:inline-block; height:20px; line-height:20px; border:none !important;}
+        .index-nav-tree ul li a.level0 span{ color:#587ba3; font-size:14px; font-weight:bold; font-family:"微软雅黑", Arial}
+        .index-nav-tree ul li.level0{padding:10px 20px 10px 20px !important;text-align:center;}
+        .index-nav-tree ul.level0{ margin-top:10px;}
+        .index-nav-tree ul li.level0{ border-top:1px solid #d3c78f;}
+        .index-nav-tree ul li.level1 a{ color:#587ba3 !important; padding-left:30px;}
+
+        .update-record{ width:1000px; margin:0px auto; }
+        .update-record ul{ overflow:hidden; margin:0px; padding:0px;}
+        .update-record ul li{ float:left; list-style:none; width:320px; margin-right:20px;}
+        .update-record ul li.last{ margin-right:0px;}
+        .update-record ul li.update-book .fl{ width:180px;}
+        .update-record ul li.update-book .fr{ width:130px;}
+        .update-title{ font-size:20px; padding-left:10px; height:40px; line-height:40px; border-bottom:1px solid #acacac; font-weight:bold;}
+        .update-list{ font-size:14px; color:#727272; font-weight:bold; padding-top:10px; border-bottom:1px solid #acacac;}
+        .update-list div{ height:30px; line-height:30px; padding-left:10px; font-family:'Microsoft YaHei'}
+        .update-book-record{ background-color:#cbc58c; height:120px; margin-top:20px; padding:14px 0px 0px 14px;}
+        .update-book-record .record-title{ color:#8a7317; font-weight:bold; font-size:20px; font-family:'Microsoft YaHei';}
+        .update-book-record .record-num{ margin-top:20px;color:#8a7317; font-size:22px;font-family:'Microsoft YaHei'; font-weight:bold;}
+        .update-resource-record{ background-color:#cbc58c; height:60px; margin-bottom:10px; padding:8px 0px 0px 8px;}
+        .update-resource-record .record-title{ color:#8a7317; font-weight:bold; font-size:14px; font-family:'Microsoft YaHei';}
+        .update-resource-record .record-num{ margin:10px 0px 0px 30px;color:#8a7317; font-size:22px;font-family:'Microsoft YaHei'; font-weight:bold;}
+        
+    </style>
+    <script type="text/javascript">
+        $(function () {
+            //绑定技术体系
+            bindNav();
+
+            //全屏插件
+            $('#dowebok').fullpage({
+                'navigation': true,
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="dowebok">
+        <div class="section">
+            <div class="logo">
+                <img src="images/2slogo.png" />
+            </div>
+            <div class="searchcontainer">
+                <div class="index-tab btn-group">
+                    <button class="btn btn-mini">条目</button>
+                    <button class="btn btn-mini">图书</button>
+                    <button class="btn btn-mini">文章</button>
+                    <button class="btn btn-mini">图片</button>
+                    <button class="btn btn-mini">手册词条</button>
+                    <button class="btn btn-mini">英文资源</button>
+                    <button class="btn btn-mini">中文期刊</button>
+                    <button class="btn btn-mini">英文文章</button>
+                    <button class="btn btn-mini">英文文章</button>
+                </div>
+                <div class="input-append">
+                    <input class="span5" id="inputIcon" type="text" />
+                    <div class="btn-group">
+                        <button class="btn btn-info dropdown-toggle" data-toggle="dropdown">全文 <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li><a href="javascript:void(0)">全文</a></li>
+                            <li><a href="javascript:void(0)">作者</a></li>
+                            <li><a href="javascript:void(0)">标题</a></li>
+                        </ul>
+                    </div>
+                    <button type="button" class="btn btn-info" style="margin-left: 10px;">搜索</button>
+                </div>
+            </div>
+            <div class="index-nav">
+                <div class="index-nav-title">
+		            <h2>技术体系</h2>
+		            <h3>Technical System</h3>
+	            </div>
+                <div class="index-nav-tree">
+                    <ul id="tree" class="ztree" style="overflow:visible; padding:0px !important;">
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="update-record">
+                <ul>
+                    <li class="update-book">
+                        <div class="fl">
+                            <div class="update-title">
+                                <font color="#8a7317">图书更新</font>
+                            </div>
+                            <div class="update-list">
+                                <div>《特种飞机的改装设计》</div>
+                                <div>《特种飞机的改装设计》</div>
+                                <div>《特种飞机的改装设计》</div>
+                                <div>《特种飞机的改装设计》</div>
+                                <div>《特种飞机的改装设计》</div>
+                                <div>《特种飞机的改装设计》</div>
+                            </div>
+                            <div class="update-book-record">
+                                <div class="record-title">图书总量</div>
+                                <div class="record-num">1500<sup>+册</sup></div>
+                            </div>
+                        </div>
+                        <div class="fr">
+                            <div class="update-resource-record">
+                                <div class="record-title">工具书</div>
+                                <div class="record-num">100<sup>+册</sup></div>
+                            </div>
+                            <div class="update-resource-record">
+                                <div class="record-title">工具书</div>
+                                <div class="record-num">100<sup>+册</sup></div>
+                            </div>
+                            <div class="update-resource-record">
+                                <div class="record-title">工具书</div>
+                                <div class="record-num">100<sup>+册</sup></div>
+                            </div>
+                            <div class="update-resource-record">
+                                <div class="record-title">工具书</div>
+                                <div class="record-num">100<sup>+册</sup></div>
+                            </div>
+                            <div class="update-resource-record">
+                                <div class="record-title">工具书</div>
+                                <div class="record-num">100<sup>+册</sup></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="update-journal">
+                        中文期刊
+                    </li>
+                    <li class="last update-english">
+                        英文期刊
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

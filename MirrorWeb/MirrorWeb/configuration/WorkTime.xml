@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <WorkDay>1,2,3,4,5</WorkDay>
+  <WorkTime>8:00-12:00</WorkTime>
+  <WorkTime>13:00-17:00</WorkTime>
+</root>

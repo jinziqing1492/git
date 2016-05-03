@@ -1,0 +1,22 @@
+﻿#changeText h1{line-height:28px;height:28px;}
+.mode_free .mode_free_c ul li, .newli_bg, .newli_bg_now, .abcboxlist .tablist0 li{  
+  display:inline;
+}
+.form-container .checkBox input
+{
+    margin:0;     
+}
+.form-container .checkBox, #main-content .form-container table.radio-button-list
+{    
+    padding:0;    
+}
+.pagination .aspNetPager input.jump-button
+{   
+    height:18px;
+    padding-top:2px;    
+    line-height:10px;
+}
+#place-holder {
+  height: 500px;
+}
+.content-box-content{height:410px;}
